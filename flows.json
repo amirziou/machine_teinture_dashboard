@@ -8,6 +8,14 @@
         "env": []
     },
     {
+        "id": "8c57432efa21a717",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "65364233e097b60e",
         "type": "ui_base",
         "theme": {
@@ -567,29 +575,417 @@
         "loginType": "none"
     },
     {
-        "id": "411ce73f02e0c173",
-        "type": "ui_date_picker",
+        "id": "20e14e74bf411b32",
+        "type": "database-config",
+        "name": "machine_teinture_db",
+        "authType": "privateKey",
+        "claims": {},
+        "createUser": false,
+        "useClaims": false
+    },
+    {
+        "id": "7986ac5d2972136f",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "7a79cdf6108f4751",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d76329c2513a1832",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0a0258bd812d5074",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "0352a0c631b917b8",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "e35db230c97414f8",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ec5dc3a380368d11",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "c997b35eb6a4bead",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1a36b571566406fb",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "846a37f5c70f2698",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "430350cc8098e61e",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ac2a282ded9bd864",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "58abf506eae53eb1",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "af81a714a3b2934e",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1afe2d1c905cebec",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "634298c8598394d6",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5930a1c3627e1fd7",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 16,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e782423874bb7d2e",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "dc972086304d9eb0",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9c7cd4449638fdc9",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "aa3828538f20bc4a",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7c1b487b9fbdc828",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7d452ef6b341981c",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5390d315e168e61b",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "034d2c2ca786459a",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "63beee5a37905175",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c42ebbe7278a2f49",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8199744c60c3faf9",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5f0ed36db1adc364",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "571411ef230ae149",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ce9dbfac8a3dc69a",
+        "type": "ui_spacer",
+        "z": "8c57432efa21a717",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 13,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "0a97d87e14763514",
+        "type": "ui_group",
+        "name": "Selection date",
+        "tab": "7b49a63af6baa3d5",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f2fda1ca9c74d814",
+        "type": "ui_group",
+        "name": "EAU",
+        "tab": "7b49a63af6baa3d5",
+        "order": 2,
+        "disp": true,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6b316a731f2e67ed",
+        "type": "ui_group",
+        "name": "Consomation",
+        "tab": "7b49a63af6baa3d5",
+        "order": 3,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7b49a63af6baa3d5",
+        "type": "ui_tab",
+        "name": "Affichage données",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "be53438ebdb3a8b4",
+        "type": "firebase-get",
         "z": "5a960c5b35b8935d",
-        "name": "",
-        "label": "date",
-        "group": "8af3156c7d7cdfa8",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "passthru": true,
-        "topic": "topic",
-        "topicType": "msg",
-        "className": "",
-        "x": 530,
-        "y": 200,
+        "name": "machine_teinture_db",
+        "constraint": {},
+        "database": "20e14e74bf411b32",
+        "outputType": "auto",
+        "passThrough": false,
+        "path": "uniqcode/machine1/",
+        "pathType": "str",
+        "useConstraint": false,
+        "x": 640,
+        "y": 80,
         "wires": [
             [
-                "ae67297d1b828ab2"
+                "bee89fab9e958c49"
             ]
         ]
     },
     {
-        "id": "ae67297d1b828ab2",
+        "id": "e5e9ef6fc33e1974",
+        "type": "inject",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 80,
+        "wires": [
+            [
+                "be53438ebdb3a8b4"
+            ]
+        ]
+    },
+    {
+        "id": "bee89fab9e958c49",
         "type": "debug",
         "z": "5a960c5b35b8935d",
         "name": "debug 1",
@@ -600,8 +996,598 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 980,
-        "y": 180,
+        "x": 1040,
+        "y": 80,
         "wires": []
+    },
+    {
+        "id": "6ad906ddb174a0dd",
+        "type": "ui_date_picker",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "label": "début",
+        "group": "0a97d87e14763514",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "d2157679c6db571b"
+            ]
+        ]
+    },
+    {
+        "id": "d2157679c6db571b",
+        "type": "debug",
+        "z": "5a960c5b35b8935d",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "fa360b08ac4c428d",
+        "type": "ui_date_picker",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "label": "fin",
+        "group": "0a97d87e14763514",
+        "order": 7,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 270,
+        "y": 280,
+        "wires": [
+            [
+                "f1b37d67629da6a0"
+            ]
+        ]
+    },
+    {
+        "id": "f1b37d67629da6a0",
+        "type": "debug",
+        "z": "5a960c5b35b8935d",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "091ee1977e8feefb",
+        "type": "ui_gauge",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "f2fda1ca9c74d814",
+        "order": 1,
+        "width": 7,
+        "height": 5,
+        "gtype": "wave",
+        "title": "EAU DURE",
+        "label": "L",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1190,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "77e7c55b277d210d",
+        "type": "ui_gauge",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "f2fda1ca9c74d814",
+        "order": 2,
+        "width": 7,
+        "height": 5,
+        "gtype": "wave",
+        "title": "EAU DOUCE",
+        "label": "L",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1190,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "7cfacd4b2669c0b1",
+        "type": "ui_chart",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "f2fda1ca9c74d814",
+        "order": 8,
+        "width": 7,
+        "height": 4,
+        "label": "EAU DURE",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1170,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf7d7e4afec62c38",
+        "type": "ui_chart",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "f2fda1ca9c74d814",
+        "order": 9,
+        "width": 7,
+        "height": 4,
+        "label": "EAU DOUCE",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "dd HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1170,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "34f686d97f879071",
+        "type": "inject",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "7",
+        "payloadType": "num",
+        "x": 250,
+        "y": 360,
+        "wires": [
+            [
+                "091ee1977e8feefb"
+            ]
+        ]
+    },
+    {
+        "id": "32397a4937072cb0",
+        "type": "template",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "field": "ui_control",
+        "fieldType": "msg",
+        "format": "json",
+        "syntax": "mustache",
+        "template": "{\n    \"options\":{\n        \"waveColor\" : \"#66FFF7\"\n    }\n}",
+        "output": "json",
+        "x": 580,
+        "y": 440,
+        "wires": [
+            [
+                "77e7c55b277d210d"
+            ]
+        ]
+    },
+    {
+        "id": "7bb8a42dd38ae2a2",
+        "type": "inject",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "num",
+        "x": 250,
+        "y": 440,
+        "wires": [
+            [
+                "32397a4937072cb0"
+            ]
+        ]
+    },
+    {
+        "id": "e26df6434f5edbba",
+        "type": "ui_chart",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "6b316a731f2e67ed",
+        "order": 1,
+        "width": 7,
+        "height": 5,
+        "label": "Consomation KW",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3037b2581ad932ba",
+        "type": "ui_button",
+        "z": "5a960c5b35b8935d",
+        "d": true,
+        "name": "",
+        "group": "0a97d87e14763514",
+        "order": 11,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "clear",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 90,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6f106af6d707a18e",
+        "type": "ui_button",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "6b316a731f2e67ed",
+        "order": 14,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "write",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "[{\"series\":[\"A\"],\"data\":[[{\"x\":1696701124000,\"y\":90},{\"x\":1696708324000,\"y\":40},{\"x\":1696711924000,\"y\":80},{\"x\":1696715524000,\"y\":10},{\"x\":1696719124000,\"y\":60},{\"x\":1696722724000,\"y\":2}]],\"labels\":[\"\"]}]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 560,
+        "wires": [
+            [
+                "e26df6434f5edbba",
+                "7cfacd4b2669c0b1",
+                "cf7d7e4afec62c38"
+            ]
+        ]
+    },
+    {
+        "id": "404c2ea5a4296859",
+        "type": "ui_chart",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "6b316a731f2e67ed",
+        "order": 7,
+        "width": 7,
+        "height": 5,
+        "label": "Consomation KW",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": true,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ebdb1885a2b1751e",
+        "type": "ui_button",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "6b316a731f2e67ed",
+        "order": 15,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "write",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "[{\"series\":[\"A\"],\"data\":[[70,90,20,50,90,30,60]],\"labels\":[\"1\",\"2\",\"3\",\"4\",\"5\"]}]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 700,
+        "wires": [
+            [
+                "404c2ea5a4296859",
+                "73d24e602472f7ed",
+                "912b7c7fa8077ea0"
+            ]
+        ]
+    },
+    {
+        "id": "ecbcb3670dfd24cd",
+        "type": "inject",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 250,
+        "y": 500,
+        "wires": [
+            [
+                "77e7c55b277d210d"
+            ]
+        ]
+    },
+    {
+        "id": "73d24e602472f7ed",
+        "type": "ui_chart",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "f2fda1ca9c74d814",
+        "order": 14,
+        "width": 7,
+        "height": 4,
+        "label": "",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": true,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1150,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "912b7c7fa8077ea0",
+        "type": "ui_chart",
+        "z": "5a960c5b35b8935d",
+        "name": "",
+        "group": "f2fda1ca9c74d814",
+        "order": 15,
+        "width": 7,
+        "height": 4,
+        "label": "",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": true,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1150,
+        "y": 740,
+        "wires": [
+            []
+        ]
     }
 ]
