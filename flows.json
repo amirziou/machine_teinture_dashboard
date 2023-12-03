@@ -580,8 +580,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 570,
-        "y": 140,
+        "x": 530,
+        "y": 200,
         "wires": [
             [
                 "ae67297d1b828ab2"
@@ -601,7 +601,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 980,
-        "y": 100,
+        "y": 180,
         "wires": []
     }
 ]
