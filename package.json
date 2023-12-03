@@ -2,7 +2,11 @@
     "name": "machine_teinture_dashboard",
     "description": "machine_teinture_dashboard with git in github ",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-dashboard": "3.4.0",
+        "node-red-node-mysql": "1.0.3",
+        "node-red-contrib-modbus": "5.25.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",

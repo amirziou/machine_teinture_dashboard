@@ -533,12 +533,6 @@
         "className": ""
     },
     {
-        "id": "bff00bf35a1c69bf",
-        "type": "firebase config",
-        "firebaseurl": "mindeq-bf432-default-rtdb",
-        "loginType": "none"
-    },
-    {
         "id": "ee6b59f8b819c3b0",
         "type": "ui_tab",
         "name": "Tab 6",
@@ -564,6 +558,13 @@
         "order": 2,
         "disp": true,
         "width": 6
+    },
+    {
+        "id": "bff00bf35a1c69bf",
+        "type": "firebase config",
+        "d": true,
+        "firebaseurl": "mindeq-bf432-default-rtdb",
+        "loginType": "none"
     },
     {
         "id": "411ce73f02e0c173",
@@ -599,8 +600,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 960,
-        "y": 180,
+        "x": 980,
+        "y": 100,
         "wires": []
     }
 ]
