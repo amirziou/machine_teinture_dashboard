@@ -944,7 +944,7 @@
         "database": "20e14e74bf411b32",
         "outputType": "auto",
         "passThrough": false,
-        "path": "uniqcode/machine1/",
+        "path": "OjGW6yGVQFeMDmwuCAuD5wo0pPe2/machine1/",
         "pathType": "str",
         "useConstraint": false,
         "x": 660,
@@ -990,7 +990,7 @@
         "type": "debug",
         "z": "5a960c5b35b8935d",
         "name": "debug 1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1015,30 +1015,13 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 270,
-        "y": 360,
+        "x": 50,
+        "y": 540,
         "wires": [
             [
                 "0dc189f9e2439f5e"
             ]
         ]
-    },
-    {
-        "id": "d2157679c6db571b",
-        "type": "debug",
-        "z": "5a960c5b35b8935d",
-        "name": "debug 7",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1080,
-        "y": 360,
-        "wires": []
     },
     {
         "id": "fa360b08ac4c428d",
@@ -1054,30 +1037,13 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 270,
-        "y": 400,
+        "x": 50,
+        "y": 580,
         "wires": [
             [
                 "6e5a90fe17235445"
             ]
         ]
-    },
-    {
-        "id": "f1b37d67629da6a0",
-        "type": "debug",
-        "z": "5a960c5b35b8935d",
-        "name": "debug 8",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1080,
-        "y": 400,
-        "wires": []
     },
     {
         "id": "091ee1977e8feefb",
@@ -1104,7 +1070,7 @@
         "diff": false,
         "className": "",
         "x": 1170,
-        "y": 780,
+        "y": 1220,
         "wires": []
     },
     {
@@ -1132,7 +1098,7 @@
         "diff": false,
         "className": "",
         "x": 1170,
-        "y": 860,
+        "y": 1300,
         "wires": []
     },
     {
@@ -1174,7 +1140,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1150,
-        "y": 960,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -1218,7 +1184,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1150,
-        "y": 1000,
+        "y": 1440,
         "wires": [
             []
         ]
@@ -1245,7 +1211,7 @@
         "payload": "7",
         "payloadType": "num",
         "x": 230,
-        "y": 780,
+        "y": 1220,
         "wires": [
             [
                 "091ee1977e8feefb"
@@ -1264,7 +1230,7 @@
         "template": "{\n    \"options\":{\n        \"waveColor\" : \"#66FFF7\"\n    }\n}",
         "output": "json",
         "x": 560,
-        "y": 860,
+        "y": 1300,
         "wires": [
             [
                 "77e7c55b277d210d"
@@ -1293,7 +1259,7 @@
         "payload": "",
         "payloadType": "num",
         "x": 230,
-        "y": 860,
+        "y": 1300,
         "wires": [
             [
                 "32397a4937072cb0"
@@ -1339,7 +1305,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1170,
-        "y": 1040,
+        "y": 1480,
         "wires": [
             []
         ]
@@ -1366,7 +1332,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 70,
-        "y": 1040,
+        "y": 1480,
         "wires": [
             []
         ]
@@ -1392,7 +1358,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 210,
-        "y": 980,
+        "y": 1420,
         "wires": [
             [
                 "e26df6434f5edbba",
@@ -1440,7 +1406,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1170,
-        "y": 1200,
+        "y": 1640,
         "wires": [
             []
         ]
@@ -1466,7 +1432,7 @@
         "topic": "topic",
         "topicType": "msg",
         "x": 210,
-        "y": 1120,
+        "y": 1560,
         "wires": [
             [
                 "404c2ea5a4296859",
@@ -1497,7 +1463,7 @@
         "payload": "5",
         "payloadType": "num",
         "x": 230,
-        "y": 920,
+        "y": 1360,
         "wires": [
             [
                 "77e7c55b277d210d"
@@ -1543,7 +1509,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1130,
-        "y": 1120,
+        "y": 1560,
         "wires": [
             []
         ]
@@ -1587,7 +1553,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1130,
-        "y": 1160,
+        "y": 1600,
         "wires": [
             []
         ]
@@ -1597,7 +1563,7 @@
         "type": "function",
         "z": "5a960c5b35b8935d",
         "name": "object -> array",
-        "func": "// Assuming msg.payload contains the object\nvar inputObject = msg.payload;\n\n// Convert object values to an array\nvar outputArray = Object.values(inputObject);\n\n// Update msg.payload with the resulting array\nmsg.payload = outputArray;\n\nreturn msg;",
+        "func": "// Assuming msg.payload contains the object\nglobal.set(\"object\", msg.payload);\n\n\nvar inputObject = msg.payload;\n\n// Convert object values to an array\nvar outputArray = Object.values(inputObject);\n\nglobal.set(\"outputArray\", outputArray);\n// Update msg.payload with the resulting array\n\nmsg.payload = outputArray;\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -1616,7 +1582,7 @@
         "type": "debug",
         "z": "5a960c5b35b8935d",
         "name": "debug 3",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1643,7 +1609,8 @@
         "y": 200,
         "wires": [
             [
-                "d793d0edf3a6ea5f"
+                "d793d0edf3a6ea5f",
+                "65ca9e70c4cc6c97"
             ]
         ]
     },
@@ -1652,17 +1619,17 @@
         "type": "function",
         "z": "5a960c5b35b8935d",
         "name": "div 1000",
-        "func": "msg.payload = msg.payload/1000\nreturn msg;",
+        "func": "msg.payload = msg.payload/1000\nglobal.set('début', msg.payload );\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 360,
+        "x": 220,
+        "y": 540,
         "wires": [
             [
-                "d2157679c6db571b"
+                "65ca9e70c4cc6c97"
             ]
         ]
     },
@@ -1671,18 +1638,125 @@
         "type": "function",
         "z": "5a960c5b35b8935d",
         "name": "div 1000",
-        "func": "msg.payload = msg.payload/1000\nreturn msg;",
+        "func": "msg.payload = msg.payload/1000\nglobal.set('fin', msg.payload);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 640,
-        "y": 400,
+        "x": 220,
+        "y": 580,
         "wires": [
             [
-                "f1b37d67629da6a0"
+                "65ca9e70c4cc6c97"
             ]
         ]
+    },
+    {
+        "id": "65ca9e70c4cc6c97",
+        "type": "function",
+        "z": "5a960c5b35b8935d",
+        "name": "time range selector between_d_f & i",
+        "func": "var d = global.get('début');\nvar f = global.get('fin');\nvar ts = global.get('timestamp');\nmsg.payload = f;\n\nvar between_d_f = [];\nvar indicesArray = [];\n\n// Filter numbers in the input array\nfor (var i = 0; i < ts.length; i++) {\n    var currentNumber = ts[i];\n\n    if (currentNumber > d && currentNumber < f) {\n        between_d_f.push(currentNumber);\n        indicesArray.push(i);\n    }\n}\n\n// Store the output array in flow context\nglobal.set(\"between_d_f\", between_d_f);\nglobal.set(\"indicesArray\", indicesArray);\n\n// Output the result (optional)\nreturn {\n    payload: {\n        between_d_f: between_d_f,\n        indicesArray: indicesArray\n    }\n};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 360,
+        "wires": [
+            [
+                "0259a9d7029a8cfd",
+                "ef8d0a45a472bdae"
+            ]
+        ]
+    },
+    {
+        "id": "0259a9d7029a8cfd",
+        "type": "debug",
+        "z": "5a960c5b35b8935d",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "ef8d0a45a472bdae",
+        "type": "function",
+        "z": "5a960c5b35b8935d",
+        "name": "objects in range of time",
+        "func": "var i = global.get('indicesArray');\nvar o = global.get('outputArray');\n\nvar nvArray = [];\n\nfor (var j = 0; j < i.length; j++) {\n\n    var currentIndex = i[j];\n\n    // Check if the index is within the bounds of 'o' array\n   \n    nvArray.push(o[currentIndex]);\n\n}\n\nmsg.payload = nvArray;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 460,
+        "wires": [
+            [
+                "da8d389f7116cfa3",
+                "9b5dc22012e386da"
+            ]
+        ]
+    },
+    {
+        "id": "da8d389f7116cfa3",
+        "type": "debug",
+        "z": "5a960c5b35b8935d",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "9b5dc22012e386da",
+        "type": "function",
+        "z": "5a960c5b35b8935d",
+        "name": "function 1",
+        "func": "msg.payload=msg.payload[0].consomation\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 580,
+        "wires": [
+            [
+                "bd540d15b571d69d"
+            ]
+        ]
+    },
+    {
+        "id": "bd540d15b571d69d",
+        "type": "debug",
+        "z": "5a960c5b35b8935d",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 580,
+        "wires": []
     }
 ]
