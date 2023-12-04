@@ -1656,14 +1656,14 @@
         "id": "65ca9e70c4cc6c97",
         "type": "function",
         "z": "5a960c5b35b8935d",
-        "name": "time range selector between_d_f & i",
+        "name": "timestamp between and indices",
         "func": "var d = global.get('début');\nvar f = global.get('fin');\nvar ts = global.get('timestamp');\nmsg.payload = f;\n\nvar timestamp_btw = [];\nvar indicesArray = [];\n\n// Filter numbers in the input array\nfor (var i = 0; i < ts.length; i++) {\n    var currentNumber = ts[i];\n\n    if (currentNumber > d && currentNumber < f) {\n        timestamp_btw.push(currentNumber);\n        indicesArray.push(i);\n    }\n}\n\n// Store the output array in flow context\nglobal.set(\"timestamp_btw\", timestamp_btw);\nglobal.set(\"indicesArray\", indicesArray);\n\n// Output the result (optional)\nreturn {\n    payload: {\n        timestamp_btw: timestamp_btw,\n        indicesArray: indicesArray\n    }\n};",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 350,
         "y": 360,
         "wires": [
             [
@@ -1684,7 +1684,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1040,
+        "x": 1260,
         "y": 360,
         "wires": []
     },
@@ -1720,7 +1720,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1060,
+        "x": 1260,
         "y": 460,
         "wires": []
     },
@@ -1728,14 +1728,14 @@
         "id": "9b5dc22012e386da",
         "type": "function",
         "z": "5a960c5b35b8935d",
-        "name": "function 1",
+        "name": "consomation, dure, douce in range",
         "func": "var i = global.get('indicesArray');\n\nvar m = msg.payload;\n\nvar consomation = [];\nvar douce = [];\nvar dure = [];\n\nfor (var j = 0; j < i.length; j++) {\n\n    consomation.push(m[j].consomation);\n    douce.push(m[j].douce);\n    dure.push(m[j].dure);\n\n}\n\nglobal.set(\"consomation\", consomation);\nglobal.set(\"dure\", dure);\nglobal.set(\"douce\", douce);\n\nreturn {\n    payload: {\n        consomation: consomation,\n        dure: dure,\n        douce: douce\n    }\n};",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 780,
+        "x": 860,
         "y": 580,
         "wires": [
             [
@@ -1755,7 +1755,7 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1100,
+        "x": 1200,
         "y": 580,
         "wires": []
     }
