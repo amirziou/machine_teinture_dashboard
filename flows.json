@@ -1332,14 +1332,14 @@
         "chartType": "line",
         "legend": "true",
         "xformat": "auto",
-        "interpolate": "bezier",
+        "interpolate": "linear",
         "nodata": "",
         "dot": false,
         "ymin": "",
         "ymax": "",
-        "removeOlder": "5",
-        "removeOlderPoints": "10",
-        "removeOlderUnit": "604800",
+        "removeOlder": "2",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -1375,12 +1375,12 @@
         "label": "EAU DOUCE",
         "chartType": "line",
         "legend": "true",
-        "xformat": "dd HH:mm",
-        "interpolate": "bezier",
+        "xformat": "auto",
+        "interpolate": "linear",
         "nodata": "",
         "dot": false,
-        "ymin": "0",
-        "ymax": "100",
+        "ymin": "",
+        "ymax": "",
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
@@ -1496,12 +1496,12 @@
         "label": "Consomation KW",
         "chartType": "line",
         "legend": "true",
-        "xformat": "HH:mm:ss",
-        "interpolate": "monotone",
+        "xformat": "auto",
+        "interpolate": "linear",
         "nodata": "",
         "dot": false,
-        "ymin": "0",
-        "ymax": "100",
+        "ymin": "",
+        "ymax": "",
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
@@ -1522,7 +1522,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1170,
+        "x": 1150,
         "y": 1480,
         "wires": [
             []
@@ -1537,23 +1537,24 @@
         "order": 14,
         "width": 4,
         "height": 1,
-        "passthru": false,
-        "label": "write",
+        "passthru": true,
+        "label": "write charts",
         "tooltip": "",
         "color": "",
         "bgcolor": "",
         "className": "",
         "icon": "",
-        "payload": "[{\"series\":[\"A\"],\"data\":[[{\"x\":1696701124000,\"y\":90},{\"x\":1696708324000,\"y\":40},{\"x\":1696711924000,\"y\":80},{\"x\":1696715524000,\"y\":10},{\"x\":1696719124000,\"y\":60},{\"x\":1696722724000,\"y\":2}]],\"labels\":[\"\"]}]",
-        "payloadType": "json",
+        "payload": "",
+        "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 210,
-        "y": 1420,
+        "x": 230,
+        "y": 1440,
         "wires": [
             [
-                "0023ece517069d62",
-                "4fcf5023b513d592"
+                "64282c0b02758047",
+                "b98569727d013732",
+                "87a8a437da1de8a6"
             ]
         ]
     },
@@ -1988,47 +1989,18 @@
         "type": "function",
         "z": "fc7fe9daa568b682",
         "name": "function 2",
-        "func": "var timestamps = global.get('timestamp');\nvar dure = global.get(\"dure\");\n\nvar dataPoints = [];\n\nfor (var i = 0; i < timestamps.length; i++) {\n    dataPoints.push({\n        x: timestamps[i]*1000,\n        y: dure[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
+        "func": "var timestamp = global.get('timestamp');\nvar dure = global.get(\"dure\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: dure[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 720,
-        "y": 1500,
+        "x": 700,
+        "y": 1400,
         "wires": [
             [
                 "4e16a23cc39b7be1",
                 "ba561d7a784dcd70"
-            ]
-        ]
-    },
-    {
-        "id": "c0fb99a7fa21702e",
-        "type": "inject",
-        "z": "fc7fe9daa568b682",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 440,
-        "y": 1500,
-        "wires": [
-            [
-                "64282c0b02758047"
             ]
         ]
     },
@@ -2044,8 +2016,46 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 960,
-        "y": 1520,
+        "x": 1160,
+        "y": 1360,
         "wires": []
+    },
+    {
+        "id": "b98569727d013732",
+        "type": "function",
+        "z": "fc7fe9daa568b682",
+        "name": "function 3",
+        "func": "var timestamp = global.get('timestamp');\nvar douce = global.get(\"douce\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: douce[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1440,
+        "wires": [
+            [
+                "4fcf5023b513d592"
+            ]
+        ]
+    },
+    {
+        "id": "87a8a437da1de8a6",
+        "type": "function",
+        "z": "fc7fe9daa568b682",
+        "name": "function 4",
+        "func": "var timestamp = global.get('timestamp');\nvar consomation = global.get(\"consomation\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: consomation[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1480,
+        "wires": [
+            [
+                "0023ece517069d62"
+            ]
+        ]
     }
 ]
