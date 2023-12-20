@@ -1,6 +1,14 @@
 [
     {
-        "id": "5a960c5b35b8935d",
+        "id": "8c57432efa21a717",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fc7fe9daa568b682",
         "type": "tab",
         "label": "Flow 2",
         "disabled": false,
@@ -8,7 +16,7 @@
         "env": []
     },
     {
-        "id": "8c57432efa21a717",
+        "id": "4ebd3fc80e35c6fc",
         "type": "tab",
         "label": "Flow 1",
         "disabled": false,
@@ -113,13 +121,6 @@
         }
     },
     {
-        "id": "84d6e3bfccbc4554",
-        "type": "ui_tab",
-        "name": "Tab 1",
-        "icon": "dashboard",
-        "order": 1
-    },
-    {
         "id": "307f18a8c7fc0bd5",
         "type": "modbus-client",
         "name": "opc",
@@ -152,7 +153,7 @@
         "id": "a2bba9102577b8eb",
         "type": "ui_group",
         "name": "voyants",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 4,
         "disp": true,
         "width": 10,
@@ -214,28 +215,10 @@
         "sessionExpiry": ""
     },
     {
-        "id": "19ac26b9089159aa",
-        "type": "ui_tab",
-        "name": "Tab 2",
-        "icon": "dashboard",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "cc873bc66202a1a1",
-        "type": "ui_link",
-        "name": "Link 1",
-        "link": "",
-        "icon": "open_in_browser",
-        "target": "newtab",
-        "order": 1
-    },
-    {
         "id": "769f553075e77d4a",
         "type": "ui_group",
         "name": "Y",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
@@ -246,7 +229,7 @@
         "id": "59b2d9869b66cc6e",
         "type": "ui_group",
         "name": "configuration",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
@@ -257,7 +240,7 @@
         "id": "95bc733e.218b4",
         "type": "ui_group",
         "name": "Entrée",
-        "tab": "d7fc954.0cb8a68",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "6",
@@ -268,7 +251,7 @@
         "id": "58fd4835.9abd98",
         "type": "ui_group",
         "name": "Bouttons",
-        "tab": "d7fc954.0cb8a68",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "6",
@@ -279,7 +262,7 @@
         "id": "d786029.c71ed",
         "type": "ui_group",
         "name": "température",
-        "tab": "d7fc954.0cb8a68",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "11",
@@ -290,7 +273,7 @@
         "id": "5ebef774.c21108",
         "type": "ui_group",
         "name": "Vitesse du moteur",
-        "tab": "d7fc954.0cb8a68",
+        "tab": "",
         "order": 4,
         "disp": true,
         "width": "6",
@@ -298,27 +281,10 @@
         "className": ""
     },
     {
-        "id": "d7fc954.0cb8a68",
-        "type": "ui_tab",
-        "name": "Fonctions de base",
-        "icon": "dashboard",
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "75b5e9715b7daae1",
-        "type": "ui_tab",
-        "name": "Exploitation des données",
-        "icon": "dashboard",
-        "order": 5,
-        "disabled": false,
-        "hidden": false
-    },
-    {
         "id": "b59b803adde5ee5f",
         "type": "ui_group",
         "name": "Analyse de température",
-        "tab": "75b5e9715b7daae1",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "7",
@@ -329,7 +295,7 @@
         "id": "bc1e206ec04d4854",
         "type": "ui_group",
         "name": "configuration",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
@@ -340,7 +306,7 @@
         "id": "1c9b81f635538e1a",
         "type": "ui_group",
         "name": "Group 1",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": 30
@@ -349,7 +315,7 @@
         "id": "1323b8585a31b9f6",
         "type": "ui_group",
         "name": "Group 1",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": 30
@@ -358,7 +324,7 @@
         "id": "91c9de56113b0a06",
         "type": "ui_group",
         "name": "Group 1",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": 30
@@ -367,7 +333,7 @@
         "id": "d27a1663f1a8968a",
         "type": "ui_group",
         "name": "configuration",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
@@ -378,7 +344,7 @@
         "id": "573ea6b2fbb159d1",
         "type": "ui_group",
         "name": "bouttons",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "3",
@@ -389,7 +355,7 @@
         "id": "c181534c4e53fbc4",
         "type": "ui_group",
         "name": "voyants",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 4,
         "disp": true,
         "width": "2",
@@ -400,7 +366,7 @@
         "id": "0f8de15fc8fd47d7",
         "type": "ui_group",
         "name": "OUTPUTS",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 6,
         "disp": true,
         "width": "3",
@@ -411,7 +377,7 @@
         "id": "0c5d3d821a463556",
         "type": "ui_group",
         "name": "Moteurs",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 7,
         "disp": true,
         "width": "3",
@@ -422,7 +388,7 @@
         "id": "7f866472b6cfb45b",
         "type": "ui_group",
         "name": "afficheur 7 seg",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 8,
         "disp": true,
         "width": "6",
@@ -511,7 +477,7 @@
         "id": "3f515cf03f31e09f",
         "type": "ui_group",
         "name": "configuration",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
@@ -522,7 +488,7 @@
         "id": "79c93d6a4b18c74b",
         "type": "ui_group",
         "name": "configuration",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
@@ -533,7 +499,7 @@
         "id": "6d00c812708a2bdf",
         "type": "ui_group",
         "name": "configuration",
-        "tab": "84d6e3bfccbc4554",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": "6",
@@ -541,17 +507,10 @@
         "className": ""
     },
     {
-        "id": "ee6b59f8b819c3b0",
-        "type": "ui_tab",
-        "name": "Tab 6",
-        "icon": "dashboard",
-        "order": 6
-    },
-    {
         "id": "8af3156c7d7cdfa8",
         "type": "ui_group",
         "name": "Selection date",
-        "tab": "ee6b59f8b819c3b0",
+        "tab": "",
         "order": 1,
         "disp": true,
         "width": "6",
@@ -562,7 +521,7 @@
         "id": "9e46086f2e3899ba",
         "type": "ui_group",
         "name": "Group 2",
-        "tab": "ee6b59f8b819c3b0",
+        "tab": "",
         "order": 2,
         "disp": true,
         "width": 6
@@ -584,316 +543,6 @@
         "useClaims": false
     },
     {
-        "id": "7986ac5d2972136f",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "0a97d87e14763514",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "7a79cdf6108f4751",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "0a97d87e14763514",
-        "order": 2,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "d76329c2513a1832",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "0a97d87e14763514",
-        "order": 3,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "0a0258bd812d5074",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "0a97d87e14763514",
-        "order": 5,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "0352a0c631b917b8",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "0a97d87e14763514",
-        "order": 6,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "e35db230c97414f8",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "0a97d87e14763514",
-        "order": 8,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "ec5dc3a380368d11",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "0a97d87e14763514",
-        "order": 9,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "c997b35eb6a4bead",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1a36b571566406fb",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "846a37f5c70f2698",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "430350cc8098e61e",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ac2a282ded9bd864",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 7,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "58abf506eae53eb1",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "af81a714a3b2934e",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "1afe2d1c905cebec",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "634298c8598394d6",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 13,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5930a1c3627e1fd7",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 16,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "e782423874bb7d2e",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 17,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "dc972086304d9eb0",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 18,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "9c7cd4449638fdc9",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "f2fda1ca9c74d814",
-        "order": 19,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "aa3828538f20bc4a",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 2,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7c1b487b9fbdc828",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 3,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "7d452ef6b341981c",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 4,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5390d315e168e61b",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 5,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "034d2c2ca786459a",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 6,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "63beee5a37905175",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 8,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "c42ebbe7278a2f49",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 9,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "8199744c60c3faf9",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 10,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "5f0ed36db1adc364",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 11,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "571411ef230ae149",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 12,
-        "width": 1,
-        "height": 1
-    },
-    {
-        "id": "ce9dbfac8a3dc69a",
-        "type": "ui_spacer",
-        "z": "8c57432efa21a717",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 13,
-        "width": 8,
-        "height": 1
-    },
-    {
         "id": "0a97d87e14763514",
         "type": "ui_group",
         "name": "Selection date",
@@ -911,7 +560,7 @@
         "tab": "7b49a63af6baa3d5",
         "order": 2,
         "disp": true,
-        "width": "15",
+        "width": 19,
         "collapse": false,
         "className": ""
     },
@@ -936,9 +585,578 @@
         "hidden": false
     },
     {
-        "id": "be53438ebdb3a8b4",
+        "id": "906bf22037b8c4fa",
+        "type": "ui_group",
+        "name": "Group 17",
+        "tab": "",
+        "order": 17,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "914281e095fed6c3",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "15f8d8ab602ca6e9",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "6b9622ae744fecc6",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 3,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "82792773b320c440",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "de5fe08e56eb0248",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a4580c0e31e80a46",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 7,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "43d3b228ef564992",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "0a97d87e14763514",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "863f63bf83dc4250",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8967758389d3adf7",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 3,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "a8314bd4797bbf11",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "48af1994c773d3ed",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "953ef83ad02ae109",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 7,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "e136e7c03372f872",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1250180ebee4648b",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "87b1780c60e8bc11",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "d132e7b83b20cdd1",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e08071d23f997370",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a0742aca7ea6798d",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 13,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "61c1be55df1356fb",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "64f311934ad9f70d",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5a0d32070f620ddb",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 16,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "70522ca74be51b12",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 17,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f0c9ebea5d52a91b",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 19,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4f67af91f9a05fb5",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4067320ce82f3df6",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6d2a3828227ec1ab",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8f6877a3b75a3e06",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "81a90f8bcc64f68a",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "89898fac705c5473",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cb3cb50a16bf9af0",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 27,
+        "width": 19,
+        "height": 1
+    },
+    {
+        "id": "848a3e62d26c0edc",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 28,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "efc7ca95309520f7",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 30,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "52397bf0587a1db4",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 32,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "70dbd91085c0a26e",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 33,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "60d303ddaeb152e2",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 34,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "f86c56f92ee2bf57",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 35,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f797e3b21b5ed7b2",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 36,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2cdf56770bc94fa0",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 37,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "58bb65b1bf37faf1",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 38,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a82bb6ceac802f07",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 39,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "85b6ccb9c6b020a1",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 40,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "a1aa5f746eb2ea18",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 41,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "71d91ed3ccb17193",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 42,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cf4bce398f23acfe",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 43,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "ebab809138677a95",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "f2fda1ca9c74d814",
+        "order": 44,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "40da5b61633df235",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f5473ea820ae5c8e",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b4d348537714988e",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b58c0bf1a3ac1432",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ead4bbede093f440",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5c60ac8a56d10185",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a99f2b669e56f269",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "29045177d25ec4a5",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ddb950140a7aada7",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b88ee96296134c02",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7f588d3151c8f47b",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 13,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "230b0d7be75ccff9",
         "type": "firebase-get",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "machine_teinture_db",
         "constraint": {},
         "database": "20e14e74bf411b32",
@@ -951,15 +1169,15 @@
         "y": 60,
         "wires": [
             [
-                "bee89fab9e958c49",
-                "13b316ee134fdf43"
+                "88ce6866dd1d2955",
+                "ae183f298cb0f72c"
             ]
         ]
     },
     {
-        "id": "e5e9ef6fc33e1974",
+        "id": "06f2a38529b947f7",
         "type": "inject",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "props": [
             {
@@ -981,14 +1199,14 @@
         "y": 60,
         "wires": [
             [
-                "be53438ebdb3a8b4"
+                "230b0d7be75ccff9"
             ]
         ]
     },
     {
-        "id": "bee89fab9e958c49",
+        "id": "88ce6866dd1d2955",
         "type": "debug",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "debug 1",
         "active": false,
         "tosidebar": true,
@@ -1002,13 +1220,13 @@
         "wires": []
     },
     {
-        "id": "6ad906ddb174a0dd",
+        "id": "14e0216c9fdf7f46",
         "type": "ui_date_picker",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "label": "début",
         "group": "0a97d87e14763514",
-        "order": 4,
+        "order": 5,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -1019,18 +1237,18 @@
         "y": 540,
         "wires": [
             [
-                "0dc189f9e2439f5e"
+                "71d57880775722a4"
             ]
         ]
     },
     {
-        "id": "fa360b08ac4c428d",
+        "id": "c9bbb15342739a95",
         "type": "ui_date_picker",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "label": "fin",
         "group": "0a97d87e14763514",
-        "order": 7,
+        "order": 9,
         "width": 6,
         "height": 1,
         "passthru": true,
@@ -1041,17 +1259,17 @@
         "y": 580,
         "wires": [
             [
-                "6e5a90fe17235445"
+                "efcf167511acb67b"
             ]
         ]
     },
     {
-        "id": "091ee1977e8feefb",
+        "id": "fec175127c745b74",
         "type": "ui_gauge",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "group": "f2fda1ca9c74d814",
-        "order": 1,
+        "order": 2,
         "width": 7,
         "height": 5,
         "gtype": "wave",
@@ -1074,12 +1292,12 @@
         "wires": []
     },
     {
-        "id": "77e7c55b277d210d",
+        "id": "914ac717d115c7a4",
         "type": "ui_gauge",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "group": "f2fda1ca9c74d814",
-        "order": 2,
+        "order": 4,
         "width": 7,
         "height": 5,
         "gtype": "wave",
@@ -1102,26 +1320,26 @@
         "wires": []
     },
     {
-        "id": "7cfacd4b2669c0b1",
+        "id": "4e16a23cc39b7be1",
         "type": "ui_chart",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "group": "f2fda1ca9c74d814",
-        "order": 8,
-        "width": 7,
-        "height": 4,
+        "order": 18,
+        "width": 9,
+        "height": 7,
         "label": "EAU DURE",
         "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
+        "legend": "true",
+        "xformat": "auto",
+        "interpolate": "bezier",
         "nodata": "",
         "dot": false,
         "ymin": "",
         "ymax": "",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlder": "5",
+        "removeOlderPoints": "10",
+        "removeOlderUnit": "604800",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
@@ -1146,19 +1364,19 @@
         ]
     },
     {
-        "id": "cf7d7e4afec62c38",
+        "id": "4fcf5023b513d592",
         "type": "ui_chart",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "group": "f2fda1ca9c74d814",
-        "order": 9,
-        "width": 7,
-        "height": 4,
+        "order": 20,
+        "width": 9,
+        "height": 7,
         "label": "EAU DOUCE",
         "chartType": "line",
-        "legend": "false",
+        "legend": "true",
         "xformat": "dd HH:mm",
-        "interpolate": "linear",
+        "interpolate": "bezier",
         "nodata": "",
         "dot": false,
         "ymin": "0",
@@ -1190,9 +1408,9 @@
         ]
     },
     {
-        "id": "34f686d97f879071",
+        "id": "793da37d75512375",
         "type": "inject",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "props": [
             {
@@ -1214,14 +1432,14 @@
         "y": 1220,
         "wires": [
             [
-                "091ee1977e8feefb"
+                "fec175127c745b74"
             ]
         ]
     },
     {
-        "id": "32397a4937072cb0",
+        "id": "b0d1c2d1e3a139c2",
         "type": "template",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "field": "ui_control",
         "fieldType": "msg",
@@ -1233,14 +1451,14 @@
         "y": 1300,
         "wires": [
             [
-                "77e7c55b277d210d"
+                "914ac717d115c7a4"
             ]
         ]
     },
     {
-        "id": "7bb8a42dd38ae2a2",
+        "id": "3cae2c6478b4bd45",
         "type": "inject",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "props": [
             {
@@ -1262,14 +1480,14 @@
         "y": 1300,
         "wires": [
             [
-                "32397a4937072cb0"
+                "b0d1c2d1e3a139c2"
             ]
         ]
     },
     {
-        "id": "e26df6434f5edbba",
+        "id": "0023ece517069d62",
         "type": "ui_chart",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "group": "6b316a731f2e67ed",
         "order": 1,
@@ -1277,9 +1495,9 @@
         "height": 5,
         "label": "Consomation KW",
         "chartType": "line",
-        "legend": "false",
+        "legend": "true",
         "xformat": "HH:mm:ss",
-        "interpolate": "linear",
+        "interpolate": "monotone",
         "nodata": "",
         "dot": false,
         "ymin": "0",
@@ -1311,36 +1529,9 @@
         ]
     },
     {
-        "id": "3037b2581ad932ba",
+        "id": "66a852e5fafe5a95",
         "type": "ui_button",
-        "z": "5a960c5b35b8935d",
-        "d": true,
-        "name": "",
-        "group": "0a97d87e14763514",
-        "order": 11,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "clear",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "[]",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 70,
-        "y": 1480,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6f106af6d707a18e",
-        "type": "ui_button",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "group": "6b316a731f2e67ed",
         "order": 14,
@@ -1361,24 +1552,126 @@
         "y": 1420,
         "wires": [
             [
-                "e26df6434f5edbba",
-                "7cfacd4b2669c0b1",
-                "cf7d7e4afec62c38"
+                "0023ece517069d62",
+                "4fcf5023b513d592"
             ]
         ]
     },
     {
-        "id": "404c2ea5a4296859",
+        "id": "b346f9da725e5f52",
         "type": "ui_chart",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "group": "6b316a731f2e67ed",
         "order": 7,
         "width": 7,
         "height": 5,
-        "label": "Consomation KW",
+        "label": "Consomation KW bar chart ",
         "chartType": "bar",
-        "legend": "false",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": true,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1200,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91a97dcfde6de741",
+        "type": "ui_button",
+        "z": "fc7fe9daa568b682",
+        "name": "",
+        "group": "6b316a731f2e67ed",
+        "order": 15,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "write",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "[{\"series\":[\"A\"],\"data\":[[70,90,20,50,90,30,60]],\"labels\":[\"1\",\"2\",\"3\",\"4\",\"5\"]}]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 1560,
+        "wires": [
+            [
+                "b346f9da725e5f52",
+                "b0c34abfc938aced",
+                "31ed4b7a5c0756eb"
+            ]
+        ]
+    },
+    {
+        "id": "8410f7783dd0ef07",
+        "type": "inject",
+        "z": "fc7fe9daa568b682",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 230,
+        "y": 1360,
+        "wires": [
+            [
+                "914ac717d115c7a4"
+            ]
+        ]
+    },
+    {
+        "id": "b0c34abfc938aced",
+        "type": "ui_chart",
+        "z": "fc7fe9daa568b682",
+        "name": "",
+        "group": "f2fda1ca9c74d814",
+        "order": 29,
+        "width": 7,
+        "height": 5,
+        "label": "Eau dure bar chart",
+        "chartType": "bar",
+        "legend": "true",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "",
@@ -1406,82 +1699,23 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1170,
-        "y": 1640,
+        "y": 1560,
         "wires": [
             []
         ]
     },
     {
-        "id": "ebdb1885a2b1751e",
-        "type": "ui_button",
-        "z": "5a960c5b35b8935d",
-        "name": "",
-        "group": "6b316a731f2e67ed",
-        "order": 15,
-        "width": 4,
-        "height": 1,
-        "passthru": false,
-        "label": "write",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "[{\"series\":[\"A\"],\"data\":[[70,90,20,50,90,30,60]],\"labels\":[\"1\",\"2\",\"3\",\"4\",\"5\"]}]",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 210,
-        "y": 1560,
-        "wires": [
-            [
-                "404c2ea5a4296859",
-                "73d24e602472f7ed",
-                "912b7c7fa8077ea0"
-            ]
-        ]
-    },
-    {
-        "id": "ecbcb3670dfd24cd",
-        "type": "inject",
-        "z": "5a960c5b35b8935d",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "5",
-        "payloadType": "num",
-        "x": 230,
-        "y": 1360,
-        "wires": [
-            [
-                "77e7c55b277d210d"
-            ]
-        ]
-    },
-    {
-        "id": "73d24e602472f7ed",
+        "id": "31ed4b7a5c0756eb",
         "type": "ui_chart",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "",
         "group": "f2fda1ca9c74d814",
-        "order": 14,
+        "order": 31,
         "width": 7,
-        "height": 4,
-        "label": "",
+        "height": 5,
+        "label": "Eau dure bar chart",
         "chartType": "bar",
-        "legend": "false",
+        "legend": "true",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "",
@@ -1508,60 +1742,16 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1130,
-        "y": 1560,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "912b7c7fa8077ea0",
-        "type": "ui_chart",
-        "z": "5a960c5b35b8935d",
-        "name": "",
-        "group": "f2fda1ca9c74d814",
-        "order": 15,
-        "width": 7,
-        "height": 4,
-        "label": "",
-        "chartType": "bar",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "100",
-        "removeOlder": 1,
-        "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
-        "cutout": 0,
-        "useOneColor": true,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "useDifferentColor": false,
-        "className": "",
-        "x": 1130,
+        "x": 1170,
         "y": 1600,
         "wires": [
             []
         ]
     },
     {
-        "id": "13b316ee134fdf43",
+        "id": "ae183f298cb0f72c",
         "type": "function",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "object -> array",
         "func": "// Assuming msg.payload contains the object\nglobal.set(\"object\", msg.payload);\n\n\nvar inputObject = msg.payload;\n\n// Convert object values to an array\nvar outputArray = Object.values(inputObject);\n\nglobal.set(\"outputArray\", outputArray);\n// Update msg.payload with the resulting array\n\nmsg.payload = outputArray;\n\nreturn msg;",
         "outputs": 1,
@@ -1573,16 +1763,16 @@
         "y": 200,
         "wires": [
             [
-                "19ffe85e53122df1"
+                "f07e0b8feefa1a35"
             ]
         ]
     },
     {
-        "id": "d793d0edf3a6ea5f",
+        "id": "64c84d6393938d83",
         "type": "debug",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "debug 3",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1595,9 +1785,9 @@
         "wires": []
     },
     {
-        "id": "19ffe85e53122df1",
+        "id": "f07e0b8feefa1a35",
         "type": "function",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "gets all timestamps into array",
         "func": "// Initialize the global variable if not already done\nglobal.set('timestamp', []);\n\n\n// Iterate through msg.payload and extract timestamp values\nfor (let i = 0; i < msg.payload.length; i++) {\n    let currentTimestamp = msg.payload[i].timestamp;\n\n    // Add the current timestamp to the global array\n    global.get('timestamp').push(currentTimestamp);\n}\n\n// Log the updated global timestamp array\nconsole.log(\"Updated timestamp array:\", global.get('timestamp'));\n\nmsg.payload = global.get('timestamp');\n//msg.payload = msg.payload.length\n// Continue the flow by passing the original message\nreturn msg;\n",
         "outputs": 1,
@@ -1609,15 +1799,15 @@
         "y": 200,
         "wires": [
             [
-                "d793d0edf3a6ea5f",
-                "65ca9e70c4cc6c97"
+                "64c84d6393938d83",
+                "71471660501f36f4"
             ]
         ]
     },
     {
-        "id": "0dc189f9e2439f5e",
+        "id": "71d57880775722a4",
         "type": "function",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "div 1000",
         "func": "msg.payload = msg.payload/1000\nglobal.set('début', msg.payload );\nreturn msg;",
         "outputs": 1,
@@ -1629,14 +1819,15 @@
         "y": 540,
         "wires": [
             [
-                "65ca9e70c4cc6c97"
+                "71471660501f36f4",
+                "fef9e0f5f9a9afe9"
             ]
         ]
     },
     {
-        "id": "6e5a90fe17235445",
+        "id": "efcf167511acb67b",
         "type": "function",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "div 1000",
         "func": "msg.payload = msg.payload/1000\nglobal.set('fin', msg.payload);\nreturn msg;",
         "outputs": 1,
@@ -1648,50 +1839,51 @@
         "y": 580,
         "wires": [
             [
-                "65ca9e70c4cc6c97"
+                "71471660501f36f4",
+                "631dd122e949d5e0"
             ]
         ]
     },
     {
-        "id": "65ca9e70c4cc6c97",
+        "id": "71471660501f36f4",
         "type": "function",
-        "z": "5a960c5b35b8935d",
-        "name": "timestamp between and indices",
+        "z": "fc7fe9daa568b682",
+        "name": "time range selector between_d_f & i",
         "func": "var d = global.get('début');\nvar f = global.get('fin');\nvar ts = global.get('timestamp');\nmsg.payload = f;\n\nvar timestamp_btw = [];\nvar indicesArray = [];\n\n// Filter numbers in the input array\nfor (var i = 0; i < ts.length; i++) {\n    var currentNumber = ts[i];\n\n    if (currentNumber > d && currentNumber < f) {\n        timestamp_btw.push(currentNumber);\n        indicesArray.push(i);\n    }\n}\n\n// Store the output array in flow context\nglobal.set(\"timestamp_btw\", timestamp_btw);\nglobal.set(\"indicesArray\", indicesArray);\n\n// Output the result (optional)\nreturn {\n    payload: {\n        timestamp_btw: timestamp_btw,\n        indicesArray: indicesArray\n    }\n};",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 350,
+        "x": 360,
         "y": 360,
         "wires": [
             [
-                "0259a9d7029a8cfd",
-                "ef8d0a45a472bdae"
+                "769ed342f3aa23e2",
+                "39a68f45119cb08e"
             ]
         ]
     },
     {
-        "id": "0259a9d7029a8cfd",
+        "id": "769ed342f3aa23e2",
         "type": "debug",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "debug 9",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1260,
+        "x": 1040,
         "y": 360,
         "wires": []
     },
     {
-        "id": "ef8d0a45a472bdae",
+        "id": "39a68f45119cb08e",
         "type": "function",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "objects in range of time",
         "func": "var i = global.get('indicesArray');\nvar o = global.get('outputArray');\n\nvar nvArray = [];\n\nfor (var j = 0; j < i.length; j++) {\n\n    var currentIndex = i[j];\n\n    // Check if the index is within the bounds of 'o' array\n   \n    nvArray.push(o[currentIndex]);\n\n}\n\nmsg.payload = nvArray;\n\nreturn msg;",
         "outputs": 1,
@@ -1703,15 +1895,15 @@
         "y": 460,
         "wires": [
             [
-                "da8d389f7116cfa3",
-                "9b5dc22012e386da"
+                "7ff2dcec2091037d",
+                "dedfecf9c630e57f"
             ]
         ]
     },
     {
-        "id": "da8d389f7116cfa3",
+        "id": "7ff2dcec2091037d",
         "type": "debug",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "debug 10",
         "active": true,
         "tosidebar": true,
@@ -1720,33 +1912,33 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1260,
+        "x": 1060,
         "y": 460,
         "wires": []
     },
     {
-        "id": "9b5dc22012e386da",
+        "id": "dedfecf9c630e57f",
         "type": "function",
-        "z": "5a960c5b35b8935d",
-        "name": "consomation, dure, douce in range",
+        "z": "fc7fe9daa568b682",
+        "name": "function 1",
         "func": "var i = global.get('indicesArray');\n\nvar m = msg.payload;\n\nvar consomation = [];\nvar douce = [];\nvar dure = [];\n\nfor (var j = 0; j < i.length; j++) {\n\n    consomation.push(m[j].consomation);\n    douce.push(m[j].douce);\n    dure.push(m[j].dure);\n\n}\n\nglobal.set(\"consomation\", consomation);\nglobal.set(\"dure\", dure);\nglobal.set(\"douce\", douce);\n\nreturn {\n    payload: {\n        consomation: consomation,\n        dure: dure,\n        douce: douce\n    }\n};",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 860,
-        "y": 580,
+        "x": 840,
+        "y": 560,
         "wires": [
             [
-                "bd540d15b571d69d"
+                "1b61f4ebfd4500cd"
             ]
         ]
     },
     {
-        "id": "bd540d15b571d69d",
+        "id": "1b61f4ebfd4500cd",
         "type": "debug",
-        "z": "5a960c5b35b8935d",
+        "z": "fc7fe9daa568b682",
         "name": "debug 11",
         "active": true,
         "tosidebar": true,
@@ -1755,8 +1947,105 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1200,
-        "y": 580,
+        "x": 1120,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "fef9e0f5f9a9afe9",
+        "type": "debug",
+        "z": "fc7fe9daa568b682",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "631dd122e949d5e0",
+        "type": "debug",
+        "z": "fc7fe9daa568b682",
+        "name": "debug 13",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "64282c0b02758047",
+        "type": "function",
+        "z": "fc7fe9daa568b682",
+        "name": "function 2",
+        "func": "var timestamps = global.get('timestamp');\nvar dure = global.get(\"dure\");\n\nvar dataPoints = [];\n\nfor (var i = 0; i < timestamps.length; i++) {\n    dataPoints.push({\n        x: timestamps[i]*1000,\n        y: dure[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1500,
+        "wires": [
+            [
+                "4e16a23cc39b7be1",
+                "ba561d7a784dcd70"
+            ]
+        ]
+    },
+    {
+        "id": "c0fb99a7fa21702e",
+        "type": "inject",
+        "z": "fc7fe9daa568b682",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 440,
+        "y": 1500,
+        "wires": [
+            [
+                "64282c0b02758047"
+            ]
+        ]
+    },
+    {
+        "id": "ba561d7a784dcd70",
+        "type": "debug",
+        "z": "fc7fe9daa568b682",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 1520,
         "wires": []
     }
 ]
