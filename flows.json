@@ -737,7 +737,18 @@
         "height": 1
     },
     {
-        "id": "c093b0923ad657c9",
+        "id": "1e142cdeb82002af",
+        "type": "ui_group",
+        "name": "Dropdown",
+        "tab": "7b49a63af6baa3d5",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "83bdc2c10309980c",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -747,7 +758,7 @@
         "height": 1
     },
     {
-        "id": "3c20c0861362d83f",
+        "id": "9e96ae716a8addfb",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -757,7 +768,7 @@
         "height": 1
     },
     {
-        "id": "1845fbe18cc97e43",
+        "id": "30b51231230b7726",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -767,7 +778,7 @@
         "height": 1
     },
     {
-        "id": "4cf102b6a9e2ae7f",
+        "id": "0223c594e85ea54f",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -777,7 +788,7 @@
         "height": 1
     },
     {
-        "id": "7915f8e42f7b16a8",
+        "id": "f75ca441cd8f6151",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -787,7 +798,7 @@
         "height": 1
     },
     {
-        "id": "27c24e0ec6b9242d",
+        "id": "82eca0159b02e73b",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -797,7 +808,7 @@
         "height": 1
     },
     {
-        "id": "e410cfac5d2e67dc",
+        "id": "50ffff4cd5b45d01",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -807,7 +818,7 @@
         "height": 1
     },
     {
-        "id": "2533823050d59e13",
+        "id": "251c45d8a25ee523",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -817,7 +828,7 @@
         "height": 1
     },
     {
-        "id": "1d96bd87df1687ec",
+        "id": "719dd8c5ad83012c",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -827,7 +838,7 @@
         "height": 1
     },
     {
-        "id": "1a12e53f31ecb14f",
+        "id": "ffaf010731f4bc3d",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -837,7 +848,7 @@
         "height": 1
     },
     {
-        "id": "d57d75128ac31c0a",
+        "id": "c2a0e8c8d5f8bda5",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -847,7 +858,7 @@
         "height": 1
     },
     {
-        "id": "a614279f88bc2b02",
+        "id": "5c15be4eeb18d7db",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -857,7 +868,7 @@
         "height": 1
     },
     {
-        "id": "07152f4e121b0765",
+        "id": "a888b168fc17c132",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -867,7 +878,7 @@
         "height": 1
     },
     {
-        "id": "0c47b1e4866b3a0b",
+        "id": "95ce753a727f533d",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -877,7 +888,7 @@
         "height": 1
     },
     {
-        "id": "b72a956095ce72a2",
+        "id": "9de417a017a069eb",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -887,7 +898,7 @@
         "height": 1
     },
     {
-        "id": "32ad2356da97b74d",
+        "id": "781a637de2d54720",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -897,7 +908,7 @@
         "height": 1
     },
     {
-        "id": "e92349ac28d00d26",
+        "id": "d36160e2e553ab26",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -907,7 +918,7 @@
         "height": 1
     },
     {
-        "id": "f07fb3a1b69aa4ca",
+        "id": "42991f3b9fb039fa",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -917,7 +928,7 @@
         "height": 1
     },
     {
-        "id": "08a5041299013531",
+        "id": "44c9b93989a30ba7",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -927,7 +938,7 @@
         "height": 1
     },
     {
-        "id": "f04eb0a77b37c437",
+        "id": "99e2a53cda96b808",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -937,7 +948,7 @@
         "height": 1
     },
     {
-        "id": "6493ead68b48a2b1",
+        "id": "ab3088b818584f70",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -947,7 +958,7 @@
         "height": 1
     },
     {
-        "id": "f71abaee8b7eccbf",
+        "id": "8b8aa18e1c90f9a7",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -957,7 +968,7 @@
         "height": 1
     },
     {
-        "id": "9365aa840f669a80",
+        "id": "3f0b076abcec683d",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -1003,7 +1014,7 @@
         ],
         "repeat": "1",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": "1",
         "topic": "",
         "payload": "",
@@ -1090,7 +1101,7 @@
         "label": "L",
         "format": "{{value}}",
         "min": 0,
-        "max": 10,
+        "max": "1000",
         "colors": [
             "#00b500",
             "#e6e600",
@@ -1100,8 +1111,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1170,
-        "y": 1020,
+        "x": 1050,
+        "y": 980,
         "wires": []
     },
     {
@@ -1118,7 +1129,7 @@
         "label": "L",
         "format": "{{value}}",
         "min": 0,
-        "max": 10,
+        "max": "1000",
         "colors": [
             "#00b500",
             "#e6e600",
@@ -1128,8 +1139,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1170,
-        "y": 1100,
+        "x": 1050,
+        "y": 1060,
         "wires": []
     },
     {
@@ -1147,7 +1158,7 @@
         "xformat": "MM/DD-HH:mm",
         "interpolate": "linear",
         "nodata": "",
-        "dot": false,
+        "dot": true,
         "ymin": "",
         "ymax": "",
         "removeOlder": "2",
@@ -1171,7 +1182,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1010,
-        "y": 1220,
+        "y": 1200,
         "wires": [
             []
         ]
@@ -1191,7 +1202,7 @@
         "xformat": "MM/DD-HH:mm",
         "interpolate": "linear",
         "nodata": "",
-        "dot": false,
+        "dot": true,
         "ymin": "",
         "ymax": "",
         "removeOlder": 1,
@@ -1215,38 +1226,9 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1010,
-        "y": 1260,
+        "y": 1240,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "793da37d75512375",
-        "type": "inject",
-        "z": "fc7fe9daa568b682",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "7",
-        "payloadType": "num",
-        "x": 370,
-        "y": 1000,
-        "wires": [
-            [
-                "fec175127c745b74"
-            ]
         ]
     },
     {
@@ -1261,7 +1243,7 @@
         "template": "{\n    \"options\":{\n        \"waveColor\" : \"#66FFF7\",\n        \"circleColor\": \"#03658c\"\n    }\n}",
         "output": "json",
         "x": 700,
-        "y": 1100,
+        "y": 1040,
         "wires": [
             [
                 "914ac717d115c7a4"
@@ -1289,8 +1271,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "num",
-        "x": 370,
-        "y": 1100,
+        "x": 450,
+        "y": 1020,
         "wires": [
             [
                 "b0d1c2d1e3a139c2",
@@ -1313,7 +1295,7 @@
         "xformat": "MM/DD-HH:mm",
         "interpolate": "linear",
         "nodata": "",
-        "dot": false,
+        "dot": true,
         "ymin": "",
         "ymax": "",
         "removeOlder": 1,
@@ -1337,39 +1319,9 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1030,
-        "y": 1300,
+        "y": 1280,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "66a852e5fafe5a95",
-        "type": "ui_button",
-        "z": "fc7fe9daa568b682",
-        "name": "",
-        "group": "6b316a731f2e67ed",
-        "order": 5,
-        "width": 2,
-        "height": 1,
-        "passthru": true,
-        "label": "write charts",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 410,
-        "y": 1260,
-        "wires": [
-            [
-                "64282c0b02758047",
-                "b98569727d013732",
-                "87a8a437da1de8a6"
-            ]
         ]
     },
     {
@@ -1383,13 +1335,13 @@
         "height": 9,
         "label": "Consomation KW bar chart ",
         "chartType": "bar",
-        "legend": "true",
+        "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
-        "ymin": "0",
-        "ymax": "100",
+        "ymin": "",
+        "ymax": "",
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
@@ -1410,69 +1362,10 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1200,
-        "y": 1440,
+        "x": 1220,
+        "y": 1480,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "91a97dcfde6de741",
-        "type": "ui_button",
-        "z": "fc7fe9daa568b682",
-        "name": "",
-        "group": "6b316a731f2e67ed",
-        "order": 7,
-        "width": 3,
-        "height": 1,
-        "passthru": false,
-        "label": "write",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "payload": "[{\"series\":[\"A\"],\"data\":[[70,90,20,50,90,30,60]],\"labels\":[\"1\",\"2\",\"3\",\"4\",\"5\"]}]",
-        "payloadType": "json",
-        "topic": "topic",
-        "topicType": "msg",
-        "x": 350,
-        "y": 1360,
-        "wires": [
-            [
-                "b346f9da725e5f52",
-                "b0c34abfc938aced",
-                "31ed4b7a5c0756eb"
-            ]
-        ]
-    },
-    {
-        "id": "8410f7783dd0ef07",
-        "type": "inject",
-        "z": "fc7fe9daa568b682",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "1",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "5",
-        "payloadType": "num",
-        "x": 370,
-        "y": 1160,
-        "wires": [
-            [
-                "914ac717d115c7a4"
-            ]
         ]
     },
     {
@@ -1486,13 +1379,13 @@
         "height": 9,
         "label": "Eau dure bar chart",
         "chartType": "bar",
-        "legend": "true",
+        "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
-        "ymin": "0",
-        "ymax": "100",
+        "ymin": "",
+        "ymax": "",
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
@@ -1513,8 +1406,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1170,
-        "y": 1360,
+        "x": 1190,
+        "y": 1400,
         "wires": [
             []
         ]
@@ -1530,13 +1423,13 @@
         "height": 9,
         "label": "Eau dure bar chart",
         "chartType": "bar",
-        "legend": "true",
+        "legend": "false",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
-        "ymin": "0",
-        "ymax": "100",
+        "ymin": "",
+        "ymax": "",
         "removeOlder": 1,
         "removeOlderPoints": "",
         "removeOlderUnit": "3600",
@@ -1557,8 +1450,8 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1170,
-        "y": 1400,
+        "x": 1190,
+        "y": 1440,
         "wires": [
             []
         ]
@@ -1801,14 +1694,14 @@
         "type": "function",
         "z": "fc7fe9daa568b682",
         "name": "function 2",
-        "func": "var timestamps = global.get('timestamp_btw');\nvar durations = global.get('dure');\nvar dataPoints = [];\n\nfor (var i = 0; i < timestamps.length; i++) {\n    // Create a new JavaScript Date object based on the timestamp\n    var date = new Date(timestamps[i] * 1000);\n    // Format the date to 'year/month/day-HH:mm'\n    var formattedDate = date.getFullYear() + '/' +\n        ('0' + (date.getMonth() + 1)).slice(-2) + '/' +\n        ('0' + date.getDate()).slice(-2) + '-' +\n        ('0' + date.getHours()).slice(-2) + ':' +\n        ('0' + date.getMinutes()).slice(-2);\n\n    dataPoints.push({\n        x: formattedDate, // Use the formatted date for the x value\n        y: durations[i]\n    });\n}\n\nvar payload = [{\n    series: [\"Eau dure\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\n\nreturn msg;\n",
+        "func": "var timestamps = global.get('timestamp_btw');\nvar dure = global.get('dure');\nvar dataPoints = [];\n\nfor (var i = 0; i < timestamps.length; i++) {\n    // Create a new JavaScript Date object based on the timestamp\n    var date = new Date(timestamps[i] * 1000);\n    // Format the date to 'year/month/day-HH:mm'\n    var formattedDate = date.getFullYear() + '/' +\n        ('0' + (date.getMonth() + 1)).slice(-2) + '/' +\n        ('0' + date.getDate()).slice(-2) + '-' +\n        ('0' + date.getHours()).slice(-2) + ':' +\n        ('0' + date.getMinutes()).slice(-2);\n\n    dataPoints.push({\n        x: formattedDate, // Use the formatted date for the x value\n        y: dure[i]\n    });\n}\n\nvar payload = [{\n    series: [\"Eau dure\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 1180,
+        "x": 780,
+        "y": 1200,
         "wires": [
             [
                 "ba561d7a784dcd70",
@@ -1830,7 +1723,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1000,
-        "y": 1180,
+        "y": 1160,
         "wires": []
     },
     {
@@ -1838,14 +1731,14 @@
         "type": "function",
         "z": "fc7fe9daa568b682",
         "name": "function 3",
-        "func": "var timestamp = global.get('timestamp_btw');\nvar douce = global.get(\"douce\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: douce[i]\n    });\n}\n\nvar payload = [{\n    series: [\"Eau douce\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
+        "func": "var timestamps = global.get('timestamp_btw');\nvar douce = global.get(\"douce\");\nvar dataPoints = [];\n\nfor (var i = 0; i < timestamps.length; i++) {\n    // Create a new JavaScript Date object based on the timestamp\n    var date = new Date(timestamps[i] * 1000);\n    // Format the date to 'year/month/day-HH:mm'\n    var formattedDate = date.getFullYear() + '/' +\n        ('0' + (date.getMonth() + 1)).slice(-2) + '/' +\n        ('0' + date.getDate()).slice(-2) + '-' +\n        ('0' + date.getHours()).slice(-2) + ':' +\n        ('0' + date.getMinutes()).slice(-2);\n\n    dataPoints.push({\n        x: formattedDate, // Use the formatted date for the x value\n        y: douce[i]\n    });\n}\nvar payload = [{\n    series: [\"Eau douce\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 1260,
+        "x": 780,
+        "y": 1240,
         "wires": [
             [
                 "4fcf5023b513d592"
@@ -1857,14 +1750,14 @@
         "type": "function",
         "z": "fc7fe9daa568b682",
         "name": "function 4",
-        "func": "var timestamp = global.get('timestamp_btw');\nvar consomation = global.get(\"consomation\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: consomation[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
+        "func": "var timestamps = global.get('timestamp_btw');\nvar consomation = global.get(\"consomation\");\nvar dataPoints = [];\n\nfor (var i = 0; i < timestamps.length; i++) {\n    // Create a new JavaScript Date object based on the timestamp\n    var date = new Date(timestamps[i] * 1000);\n    // Format the date to 'year/month/day-HH:mm'\n    var formattedDate = date.getFullYear() + '/' +\n        ('0' + (date.getMonth() + 1)).slice(-2) + '/' +\n        ('0' + date.getDate()).slice(-2) + '-' +\n        ('0' + date.getHours()).slice(-2) + ':' +\n        ('0' + date.getMinutes()).slice(-2);\n\n    dataPoints.push({\n        x: formattedDate, // Use the formatted date for the x value\n        y: consomation[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 660,
-        "y": 1300,
+        "x": 780,
+        "y": 1280,
         "wires": [
             [
                 "0023ece517069d62"
@@ -1880,7 +1773,7 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "format": "<style>\n\n    /*Main background*/\n    body {\n        background: -webkit-linear-gradient(\n            55deg,\n            #009785 0%,\n            #245aa5 50%,\n            /*#b800e9 100% */\n            #008000 100% /* green */\n            );\n    }\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n        color: #FFFFFF !important;\n    }\n\n\n    /*Left menu*/\n    /*Sidebar*/\n    body.nr-dashboard-theme md-sidenav {\n        color: white !important;\n        background-color: rgba(0,0,0,0) !important;\n    }\n    /*Hover selection*/\n    a.md-no-style, button.md-no-style {\n        border-radius: 10px !important;\n    }\n    /*Selected*/\n    .nr-menu-item-active div button {\n        border-right: 4px solid rgb(41 98 255) !important;\n    }\n    /*List*/\n    body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n        color: white !important;\n        background-color: rgba(40,85,165,1) !important;\n        border-radius: 10px !important;\n    }\n\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: rgba(255,255,255,0.3) !important;\n        border-radius: 10px !important;\n    }\n    .nr-dashboard-theme ui-card-panel {\n        border: none !important;\n    }\n    /*Name groups*/\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: rgba(255, 255, 255, 1) !important;\n    }\n\n\n    /*Bouttons*/\n    .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: rgba(255,255,255,.1) !important;\n    }\n    .md-button {\n        border-radius: 10px !important;\n    }\n\n\n    /*Dropdown menu*/\n    .nr-dashboard-theme md-select-menu{\n        background-color: rgba(40,85,165,1) !important;\n    }\n    .nr-dashboard-theme md-select-menu, .nr-dashboard-theme md-select-menu md-option {\n        background-color: transparent !important;\n    }\n    .nr-dashboard-theme .md-select-menu-container {\n        border-radius: 10px !important;\n        border: none !important;\n    }\n    .nr-dashboard-theme md-select-menu md-option[selected] {\n        color: white !important;\n        background-color: #1a3566 !important;\n    }\n\n    /*Template*/\n    md-card>img, md-card>md-card-header img, md-card md-card-title-media img {\n        border-radius: 10px !important;\n    }\n\n    /* Color picker text BG */\n    .nr-dashboard-theme .color-picker-input-wrapper > input {\n        color: white !important;\n        background-color: transparent !important;\n    }\n\n</style>",
+        "format": "<style>\n\n    /*Main background*/\n    body {\n        background: -webkit-linear-gradient(\n            55deg,\n            #009785 0%,\n            #245aa5 50%,\n            /*#b800e9 100% */\n            #008000 100% /* green */\n            );\n    }\n\n    /*Top bar*/\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content md-card {\n        background-color: transparent !important;\n        color: #FFFFFF !important;\n    }\n\n\n    /*Left menu*/\n    /*Sidebar*/\n    body.nr-dashboard-theme md-sidenav {\n        color: white !important;\n        background-color: rgba(0,0,0,0) !important;\n    }\n    /*Hover selection*/\n    a.md-no-style, button.md-no-style {\n        border-radius: 10px !important;\n    }\n    /*Selected*/\n    .nr-menu-item-active div button {\n        border-right: 4px solid rgb(41 98 255) !important;\n    }\n    /*List*/\n    body.nr-dashboard-theme md-sidenav div.md-list-item-inner {\n        color: white !important;\n        background-color: rgba(40,85,165,1) !important;\n        border-radius: 10px !important;\n    }\n\n\n    /*Groups*/\n    ui-card-panel {\n        background-color: rgba(255,255,255,0.3) !important;\n        border-radius: 10px !important;\n    }\n    .nr-dashboard-theme ui-card-panel {\n        border: none !important;\n    }\n    /*Name groups*/\n    .nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n        color: rgba(255, 255, 255, 1) !important;\n    }\n\n\n    /*Bouttons*/\n    .nr-dashboard-theme .nr-dashboard-button .md-button {\n        background-color: rgba(255,255,255,.1) !important;\n    }\n    .md-button {\n        border-radius: 10px !important;\n    }\n\n\n    /*Dropdown menu*/\n    .nr-dashboard-theme md-select-menu{\n        background-color: rgba(40,85,165,1) !important;\n    }\n    .nr-dashboard-theme md-select-menu, .nr-dashboard-theme md-select-menu md-option {\n        background-color: transparent !important;\n    }\n    .nr-dashboard-theme .md-select-menu-container {\n        border-radius: 10px !important;\n        border: none !important;\n    }\n    .nr-dashboard-theme md-select-menu md-option[selected] {\n        color: white !important;\n        background-color: #1a3566 !important;\n    }\n\n    /*Template*/\n    md-card>img, md-card>md-card-header img, md-card md-card-title-media img {\n        border-radius: 10px !important;\n    }\n\n    /* Color picker text BG */\n    .nr-dashboard-theme .color-picker-input-wrapper > input {\n        color: white !important;\n        background-color: transparent !important;\n    }\n\n    .nr-dashboard-theme .nr-dashboard-date-picker .md-button.md-icon-button md-icon {\n    color: black !important;\n    }\n\n</style>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
@@ -1903,8 +1796,8 @@
         "syntax": "mustache",
         "template": "{\n    \"options\":{\n        \"waveColor\": \"#66FFF7\",\n        \"circleColor\": \"#03658c\"\n    }\n}",
         "output": "json",
-        "x": 740,
-        "y": 1040,
+        "x": 700,
+        "y": 1000,
         "wires": [
             [
                 "fec175127c745b74"
@@ -2041,17 +1934,273 @@
         ],
         "repeat": "1",
         "crontab": "",
-        "once": false,
+        "once": true,
         "onceDelay": "1",
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 150,
-        "y": 1200,
+        "x": 350,
+        "y": 1420,
         "wires": [
             [
-                "66a852e5fafe5a95"
+                "64282c0b02758047",
+                "b98569727d013732",
+                "87a8a437da1de8a6",
+                "30db5cc62f3e7c2b",
+                "24d4b28bc186cc2c",
+                "4c3b1cbc2da0770f"
             ]
+        ]
+    },
+    {
+        "id": "30db5cc62f3e7c2b",
+        "type": "function",
+        "z": "fc7fe9daa568b682",
+        "name": "function 5",
+        "func": "var timestamps = global.get('timestamp_btw');\nvar dure = global.get('dure');\n\n// Ensure both arrays are of the same length\nif (timestamps.length !== dure.length) {\n    node.error(\"Timestamps and values arrays are not of the same length\");\n    return;\n}\n\n// Group and sum values by day\nlet aggregatedData = {};\ntimestamps.forEach((ts, index) => {\n    let date = new Date(ts * 1000);\n    let dayKey = date.getFullYear() + '-' + String(date.getMonth() + 1).padStart(2, '0') + '-' + String(date.getDate()).padStart(2, '0');\n\n    if (!aggregatedData[dayKey]) {\n        aggregatedData[dayKey] = 0;\n    }\n    aggregatedData[dayKey] += Number(dure[index]);\n});\n\n// Separate keys and values for chart data\nlet formattedTimestamps = Object.keys(aggregatedData);\nlet aggregatedValues = Object.values(aggregatedData);\n\n// Format timestamps for display\nlet formattedDisplayTimestamps = formattedTimestamps.map(dayKey => {\n    let parts = dayKey.split('-');\n    return `${parts[1]}/${parts[2]}`; // format as MM/DD\n});\n\n// Preparing the data for the chart\nlet chartData = {\n    \"series\": [\"A\"],\n    \"data\": [aggregatedValues],\n    \"labels\": formattedDisplayTimestamps\n};\n\n// Assign the chart data to the payload of the msg object\nmsg.payload = [chartData];\n\n// Return the modified msg object\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1380,
+        "wires": [
+            [
+                "b0c34abfc938aced",
+                "6370771d48a10ca7"
+            ]
+        ]
+    },
+    {
+        "id": "6370771d48a10ca7",
+        "type": "debug",
+        "z": "fc7fe9daa568b682",
+        "name": "debug 17",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1180,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "66a852e5fafe5a95",
+        "type": "ui_button",
+        "z": "fc7fe9daa568b682",
+        "name": "",
+        "group": "6b316a731f2e67ed",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "label": "write charts",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "91a97dcfde6de741",
+        "type": "ui_button",
+        "z": "fc7fe9daa568b682",
+        "name": "",
+        "group": "6b316a731f2e67ed",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "write",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "24d4b28bc186cc2c",
+        "type": "function",
+        "z": "fc7fe9daa568b682",
+        "name": "function 6",
+        "func": "var timestamps = global.get('timestamp_btw');\nvar douce = global.get('douce');\n\n\n// Ensure both arrays are of the same length\nif (timestamps.length !== douce.length) {\n    node.error(\"Timestamps and values arrays are not of the same length\");\n    return;\n}\n\n// Group and sum values by day\nlet aggregatedData = {};\ntimestamps.forEach((ts, index) => {\n    let date = new Date(ts * 1000);\n    let dayKey = date.getFullYear() + '-' + String(date.getMonth() + 1).padStart(2, '0') + '-' + String(date.getDate()).padStart(2, '0');\n\n    if (!aggregatedData[dayKey]) {\n        aggregatedData[dayKey] = 0;\n    }\n    aggregatedData[dayKey] += Number(douce[index]);\n});\n\n// Separate keys and values for chart data\nlet formattedTimestamps = Object.keys(aggregatedData);\nlet aggregatedValues = Object.values(aggregatedData);\n\n// Format timestamps for display\nlet formattedDisplayTimestamps = formattedTimestamps.map(dayKey => {\n    let parts = dayKey.split('-');\n    return `${parts[1]}/${parts[2]}`; // format as MM/DD\n});\n\n// Preparing the data for the chart\nlet chartData = {\n    \"series\": [\"A\"],\n    \"data\": [aggregatedValues],\n    \"labels\": formattedDisplayTimestamps\n};\n\n// Assign the chart data to the payload of the msg object\nmsg.payload = [chartData];\n\n// Return the modified msg object\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1420,
+        "wires": [
+            [
+                "31ed4b7a5c0756eb"
+            ]
+        ]
+    },
+    {
+        "id": "4c3b1cbc2da0770f",
+        "type": "function",
+        "z": "fc7fe9daa568b682",
+        "name": "function 7",
+        "func": "var timestamps = global.get('timestamp_btw');\nvar dure = global.get('dure');\n// Example input arrays\n\n// Ensure both arrays are of the same length\nif (timestamps.length !== dure.length) {\n    node.error(\"Timestamps and values arrays are not of the same length\");\n    return;\n}\n\n\nlet formattedTimestamps = timestamps.map(ts => {\n    let date = new Date(ts * 1000); // converting to milliseconds\n    let month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-based, so add 1\n    let day = String(date.getDate()).padStart(2, '0');\n    let hours = String(date.getHours()).padStart(2, '0');\n    let minutes = String(date.getMinutes()).padStart(2, '0');\n    return `${month}/${day} ${hours}:${minutes}`;\n});\n\n\n// Preparing the data for the chart\nlet chartData = {\n    \"series\": [\"A\"],\n    \"data\": [dure],\n    \"labels\": formattedTimestamps\n};\n\n// Assign the chart data to the payload of the msg object\nmsg.payload = [chartData];\n\n// Return the modified msg object\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1460,
+        "wires": [
+            [
+                "b346f9da725e5f52"
+            ]
+        ]
+    },
+    {
+        "id": "f464d95542f02db4",
+        "type": "function",
+        "z": "fc7fe9daa568b682",
+        "name": "function 8",
+        "func": "// Retrieve the 'dure' array from global context\nvar dure = global.get('dure');\n\n// Check if 'dure' is an array and has elements\nif (!Array.isArray(dure) || dure.length === 0) {\n    node.error(\"'dure' is not an array or is empty\");\n    return;\n}\n\n// Sum up the values in 'dure'\nlet sum = dure.reduce((accumulator, currentValue) => {\n    return accumulator + Number(currentValue);\n}, 0);\n\n// Store the sum in a new array\nvar sumArray = [sum];\n\n// You can then use 'sumArray' as needed, for example, set it to global context or pass it to the next node\n// For example, setting it to global context:\nglobal.set('sumDure', sumArray);\n\n// Returning the sumArray in msg.payload\nmsg.payload = sumArray;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 940,
+        "wires": [
+            [
+                "fec175127c745b74"
+            ]
+        ]
+    },
+    {
+        "id": "b407fd0ce94a0089",
+        "type": "inject",
+        "z": "fc7fe9daa568b682",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 1020,
+        "wires": [
+            [
+                "f464d95542f02db4",
+                "e27d9d68e1a8196e"
+            ]
+        ]
+    },
+    {
+        "id": "e27d9d68e1a8196e",
+        "type": "function",
+        "z": "fc7fe9daa568b682",
+        "name": "function 9",
+        "func": "// Retrieve the 'dure' array from global context\nvar douce = global.get('douce');\n\n// Check if 'dure' is an array and has elements\nif (!Array.isArray(douce) || douce.length === 0) {\n    node.error(\"'dure' is not an array or is empty\");\n    return;\n}\n\n// Sum up the values in 'dure'\nlet sum = douce.reduce((accumulator, currentValue) => {\n    return accumulator + Number(currentValue);\n}, 0);\n\n// Store the sum in a new array\nvar sumArray = [sum];\n\n// You can then use 'sumArray' as needed, for example, set it to global context or pass it to the next node\n// For example, setting it to global context:\nglobal.set('sumDouce', sumArray);\n\n// Returning the sumArray in msg.payload\nmsg.payload = sumArray;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 1100,
+        "wires": [
+            [
+                "914ac717d115c7a4"
+            ]
+        ]
+    },
+    {
+        "id": "43d93ca70a6f6926",
+        "type": "ui_dropdown",
+        "z": "fc7fe9daa568b682",
+        "name": "",
+        "label": "DropDown",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "1e142cdeb82002af",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "30min",
+                "value": "30",
+                "type": "str"
+            },
+            {
+                "label": "1hr",
+                "value": "60",
+                "type": "str"
+            },
+            {
+                "label": "2hrs",
+                "value": "120",
+                "type": "str"
+            },
+            {
+                "label": "1jr",
+                "value": "333",
+                "type": "str"
+            },
+            {
+                "label": "1sem",
+                "value": "555555",
+                "type": "str"
+            },
+            {
+                "label": "1mois",
+                "value": "8888888",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 190,
+        "y": 800,
+        "wires": [
+            []
         ]
     }
 ]
