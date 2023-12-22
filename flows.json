@@ -1001,14 +1001,14 @@
                 "vt": "str"
             }
         ],
-        "repeat": "",
+        "repeat": "1",
         "crontab": "",
         "once": false,
-        "onceDelay": "5",
+        "onceDelay": "1",
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 280,
+        "x": 290,
         "y": 60,
         "wires": [
             [
@@ -1143,8 +1143,8 @@
         "height": 9,
         "label": "EAU DURE",
         "chartType": "line",
-        "legend": "true",
-        "xformat": "auto",
+        "legend": "false",
+        "xformat": "MM/DD-HH:mm",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
@@ -1152,12 +1152,12 @@
         "ymax": "",
         "removeOlder": "2",
         "removeOlderPoints": "",
-        "removeOlderUnit": "3600",
+        "removeOlderUnit": "86400",
         "cutout": 0,
         "useOneColor": false,
         "useUTC": false,
         "colors": [
-            "#12416e",
+            "#10375b",
             "#aec7e8",
             "#ff7f0e",
             "#2ca02c",
@@ -1170,7 +1170,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 870,
+        "x": 1010,
         "y": 1220,
         "wires": [
             []
@@ -1187,8 +1187,8 @@
         "height": 9,
         "label": "EAU DOUCE",
         "chartType": "line",
-        "legend": "true",
-        "xformat": "auto",
+        "legend": "false",
+        "xformat": "MM/DD-HH:mm",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
@@ -1201,7 +1201,7 @@
         "useOneColor": false,
         "useUTC": false,
         "colors": [
-            "#12416e",
+            "#0f375b",
             "#aec7e8",
             "#ff7f0e",
             "#2ca02c",
@@ -1214,7 +1214,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 870,
+        "x": 1010,
         "y": 1260,
         "wires": [
             []
@@ -1241,7 +1241,7 @@
         "topic": "",
         "payload": "7",
         "payloadType": "num",
-        "x": 230,
+        "x": 370,
         "y": 1000,
         "wires": [
             [
@@ -1260,7 +1260,7 @@
         "syntax": "mustache",
         "template": "{\n    \"options\":{\n        \"waveColor\" : \"#66FFF7\",\n        \"circleColor\": \"#03658c\"\n    }\n}",
         "output": "json",
-        "x": 560,
+        "x": 700,
         "y": 1100,
         "wires": [
             [
@@ -1289,7 +1289,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "num",
-        "x": 230,
+        "x": 370,
         "y": 1100,
         "wires": [
             [
@@ -1309,8 +1309,8 @@
         "height": 9,
         "label": "Consomation KW",
         "chartType": "line",
-        "legend": "true",
-        "xformat": "auto",
+        "legend": "false",
+        "xformat": "MM/DD-HH:mm",
         "interpolate": "linear",
         "nodata": "",
         "dot": false,
@@ -1323,7 +1323,7 @@
         "useOneColor": false,
         "useUTC": false,
         "colors": [
-            "#1f77b4",
+            "#10375b",
             "#aec7e8",
             "#ff7f0e",
             "#2ca02c",
@@ -1336,7 +1336,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 890,
+        "x": 1030,
         "y": 1300,
         "wires": [
             []
@@ -1362,8 +1362,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 230,
-        "y": 1240,
+        "x": 410,
+        "y": 1260,
         "wires": [
             [
                 "64282c0b02758047",
@@ -1436,7 +1436,7 @@
         "payloadType": "json",
         "topic": "topic",
         "topicType": "msg",
-        "x": 210,
+        "x": 350,
         "y": 1360,
         "wires": [
             [
@@ -1467,7 +1467,7 @@
         "topic": "",
         "payload": "5",
         "payloadType": "num",
-        "x": 230,
+        "x": 370,
         "y": 1160,
         "wires": [
             [
@@ -1587,7 +1587,7 @@
         "type": "debug",
         "z": "fc7fe9daa568b682",
         "name": "debug 3",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1682,7 +1682,7 @@
         "type": "debug",
         "z": "fc7fe9daa568b682",
         "name": "debug 9",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1718,7 +1718,7 @@
         "type": "debug",
         "z": "fc7fe9daa568b682",
         "name": "debug 10",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1753,7 +1753,7 @@
         "type": "debug",
         "z": "fc7fe9daa568b682",
         "name": "debug 11",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1801,18 +1801,18 @@
         "type": "function",
         "z": "fc7fe9daa568b682",
         "name": "function 2",
-        "func": "var timestamp = global.get('timestamp');\nvar dure = global.get(\"dure\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: dure[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
+        "func": "var timestamps = global.get('timestamp_btw');\nvar durations = global.get('dure');\nvar dataPoints = [];\n\nfor (var i = 0; i < timestamps.length; i++) {\n    // Create a new JavaScript Date object based on the timestamp\n    var date = new Date(timestamps[i] * 1000);\n    // Format the date to 'year/month/day-HH:mm'\n    var formattedDate = date.getFullYear() + '/' +\n        ('0' + (date.getMonth() + 1)).slice(-2) + '/' +\n        ('0' + date.getDate()).slice(-2) + '-' +\n        ('0' + date.getHours()).slice(-2) + ':' +\n        ('0' + date.getMinutes()).slice(-2);\n\n    dataPoints.push({\n        x: formattedDate, // Use the formatted date for the x value\n        y: durations[i]\n    });\n}\n\nvar payload = [{\n    series: [\"Eau dure\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\n\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
-        "y": 1220,
+        "x": 680,
+        "y": 1180,
         "wires": [
             [
-                "4e16a23cc39b7be1",
-                "ba561d7a784dcd70"
+                "ba561d7a784dcd70",
+                "4e16a23cc39b7be1"
             ]
         ]
     },
@@ -1821,15 +1821,16 @@
         "type": "debug",
         "z": "fc7fe9daa568b682",
         "name": "debug 14",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1160,
-        "y": 1160,
+        "x": 1000,
+        "y": 1180,
         "wires": []
     },
     {
@@ -1837,13 +1838,13 @@
         "type": "function",
         "z": "fc7fe9daa568b682",
         "name": "function 3",
-        "func": "var timestamp = global.get('timestamp');\nvar douce = global.get(\"douce\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: douce[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
+        "func": "var timestamp = global.get('timestamp_btw');\nvar douce = global.get(\"douce\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: douce[i]\n    });\n}\n\nvar payload = [{\n    series: [\"Eau douce\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
+        "x": 660,
         "y": 1260,
         "wires": [
             [
@@ -1856,13 +1857,13 @@
         "type": "function",
         "z": "fc7fe9daa568b682",
         "name": "function 4",
-        "func": "var timestamp = global.get('timestamp');\nvar consomation = global.get(\"consomation\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: consomation[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
+        "func": "var timestamp = global.get('timestamp_btw');\nvar consomation = global.get(\"consomation\");\nvar dataPoints = [];\n\n\nfor (var i = 0; i < timestamp.length; i++) {\n    dataPoints.push({\n        x: timestamp[i]*1000,\n        y: consomation[i]\n    });\n}\n\nvar payload = [{\n    series: [\"A\"],\n    data: [dataPoints],\n    labels: [\"\"]\n}];\n\nmsg.payload = payload;\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 520,
+        "x": 660,
         "y": 1300,
         "wires": [
             [
@@ -1902,7 +1903,7 @@
         "syntax": "mustache",
         "template": "{\n    \"options\":{\n        \"waveColor\": \"#66FFF7\",\n        \"circleColor\": \"#03658c\"\n    }\n}",
         "output": "json",
-        "x": 600,
+        "x": 740,
         "y": 1040,
         "wires": [
             [
@@ -2023,5 +2024,34 @@
         "x": 860,
         "y": 860,
         "wires": []
+    },
+    {
+        "id": "dfc33aa0a1bb15ce",
+        "type": "inject",
+        "z": "fc7fe9daa568b682",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 1200,
+        "wires": [
+            [
+                "66a852e5fafe5a95"
+            ]
+        ]
     }
 ]
