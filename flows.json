@@ -556,7 +556,7 @@
         "tab": "f5f82f1b5143417d",
         "order": 2,
         "disp": true,
-        "width": 14,
+        "width": 20,
         "collapse": false,
         "className": ""
     },
@@ -617,126 +617,6 @@
         "className": ""
     },
     {
-        "id": "c5cc618e8f0d02f5",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "880b9ee2c0fd9db3",
-        "order": 1,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "9de254345e4e8286",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "880b9ee2c0fd9db3",
-        "order": 2,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "a75d06467b7e7e1f",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "880b9ee2c0fd9db3",
-        "order": 3,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "fbed606a9cb74436",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "880b9ee2c0fd9db3",
-        "order": 4,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "f15e895089df6bd6",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "880b9ee2c0fd9db3",
-        "order": 5,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "e5897ce67ed7da7b",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "880b9ee2c0fd9db3",
-        "order": 7,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "aa5ae70c2c6abea8",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "880b9ee2c0fd9db3",
-        "order": 8,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "ded5e0468be4867d",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "880b9ee2c0fd9db3",
-        "order": 9,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "59688ebd46c62328",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 3,
-        "width": 14,
-        "height": 1
-    },
-    {
-        "id": "7c43cdbd187b52c4",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 4,
-        "width": 2,
-        "height": 1
-    },
-    {
-        "id": "57eba6ba97988c82",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 6,
-        "width": 4,
-        "height": 1
-    },
-    {
-        "id": "aeee7a88ab342e95",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "6b316a731f2e67ed",
-        "order": 8,
-        "width": 3,
-        "height": 1
-    },
-    {
         "id": "1e142cdeb82002af",
         "type": "ui_group",
         "name": "Dropdown",
@@ -748,7 +628,18 @@
         "className": ""
     },
     {
-        "id": "83bdc2c10309980c",
+        "id": "064e2cd87ddf434b",
+        "type": "ui_group",
+        "name": "Dropdown Kw",
+        "tab": "f5f82f1b5143417d",
+        "order": 3,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b19c86f23d4d8f35",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -758,17 +649,7 @@
         "height": 1
     },
     {
-        "id": "9e96ae716a8addfb",
-        "type": "ui_spacer",
-        "z": "fc7fe9daa568b682",
-        "name": "spacer",
-        "group": "0a97d87e14763514",
-        "order": 2,
-        "width": 6,
-        "height": 1
-    },
-    {
-        "id": "30b51231230b7726",
+        "id": "09cb55e6719e4575",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -778,7 +659,7 @@
         "height": 1
     },
     {
-        "id": "0223c594e85ea54f",
+        "id": "dc4c96d083c40796",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -788,7 +669,7 @@
         "height": 1
     },
     {
-        "id": "f75ca441cd8f6151",
+        "id": "97d89fb51f0bfeb7",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -798,7 +679,7 @@
         "height": 1
     },
     {
-        "id": "82eca0159b02e73b",
+        "id": "223e28c0292dad3a",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -808,7 +689,7 @@
         "height": 1
     },
     {
-        "id": "50ffff4cd5b45d01",
+        "id": "3994f8bc24b4823a",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -818,7 +699,7 @@
         "height": 1
     },
     {
-        "id": "251c45d8a25ee523",
+        "id": "0fe9b6308a11ac05",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -828,7 +709,7 @@
         "height": 1
     },
     {
-        "id": "719dd8c5ad83012c",
+        "id": "716ee6873c2bf6c0",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -838,7 +719,7 @@
         "height": 1
     },
     {
-        "id": "ffaf010731f4bc3d",
+        "id": "bde97e87b06a6017",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -848,7 +729,7 @@
         "height": 1
     },
     {
-        "id": "c2a0e8c8d5f8bda5",
+        "id": "6fa42d47c599cf82",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -858,7 +739,7 @@
         "height": 1
     },
     {
-        "id": "5c15be4eeb18d7db",
+        "id": "c7e31a7a89658b2c",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -868,7 +749,7 @@
         "height": 1
     },
     {
-        "id": "a888b168fc17c132",
+        "id": "0a0dfeabb6e0be66",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -878,7 +759,7 @@
         "height": 1
     },
     {
-        "id": "95ce753a727f533d",
+        "id": "28af05aa4a9a8a48",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -888,7 +769,7 @@
         "height": 1
     },
     {
-        "id": "9de417a017a069eb",
+        "id": "67dfffc6ac3d957b",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -898,7 +779,7 @@
         "height": 1
     },
     {
-        "id": "781a637de2d54720",
+        "id": "4a252d9577c26b46",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -908,7 +789,7 @@
         "height": 1
     },
     {
-        "id": "d36160e2e553ab26",
+        "id": "c6040f3f87c4babd",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -918,7 +799,7 @@
         "height": 1
     },
     {
-        "id": "42991f3b9fb039fa",
+        "id": "31890d687a85d5cd",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -928,7 +809,7 @@
         "height": 1
     },
     {
-        "id": "44c9b93989a30ba7",
+        "id": "427f287c1bea7e18",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -938,7 +819,7 @@
         "height": 1
     },
     {
-        "id": "99e2a53cda96b808",
+        "id": "749ff7694a01eba9",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -948,7 +829,7 @@
         "height": 1
     },
     {
-        "id": "ab3088b818584f70",
+        "id": "c00c5a7a8dbceec3",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -958,7 +839,7 @@
         "height": 1
     },
     {
-        "id": "8b8aa18e1c90f9a7",
+        "id": "72a66a525365f035",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
@@ -968,13 +849,133 @@
         "height": 1
     },
     {
-        "id": "3f0b076abcec683d",
+        "id": "cc7e5a966eb5078d",
         "type": "ui_spacer",
         "z": "fc7fe9daa568b682",
         "name": "spacer",
         "group": "f2fda1ca9c74d814",
         "order": 17,
         "width": 1,
+        "height": 1
+    },
+    {
+        "id": "70ce20b15d296d43",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "880b9ee2c0fd9db3",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "b346dd16b729304f",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "880b9ee2c0fd9db3",
+        "order": 2,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "dadc5958c7b98930",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "880b9ee2c0fd9db3",
+        "order": 4,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "a596f610c81fd13e",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "880b9ee2c0fd9db3",
+        "order": 5,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "e612a7e9737aa4fe",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "880b9ee2c0fd9db3",
+        "order": 6,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "390e997682a4f7e5",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "880b9ee2c0fd9db3",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "456594c3652f883a",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "880b9ee2c0fd9db3",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "752b0d69c638171c",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "880b9ee2c0fd9db3",
+        "order": 10,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "f20bd7e069dd87b0",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 3,
+        "width": 20,
+        "height": 1
+    },
+    {
+        "id": "a91df554195de7ae",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b213312b43a57999",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "5a7b1a7379119a7a",
+        "type": "ui_spacer",
+        "z": "fc7fe9daa568b682",
+        "name": "spacer",
+        "group": "6b316a731f2e67ed",
+        "order": 8,
+        "width": 9,
         "height": 1
     },
     {
@@ -1057,8 +1058,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 530,
-        "y": 720,
+        "x": 510,
+        "y": 780,
         "wires": [
             [
                 "71d57880775722a4"
@@ -1079,8 +1080,8 @@
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 530,
-        "y": 760,
+        "x": 510,
+        "y": 820,
         "wires": [
             [
                 "efcf167511acb67b"
@@ -1287,7 +1288,7 @@
         "name": "",
         "group": "6b316a731f2e67ed",
         "order": 1,
-        "width": 14,
+        "width": 20,
         "height": 9,
         "label": "Consomation KW",
         "chartType": "line",
@@ -1331,7 +1332,7 @@
         "name": "",
         "group": "6b316a731f2e67ed",
         "order": 2,
-        "width": 14,
+        "width": 20,
         "height": 9,
         "label": "Consomation KW bar chart ",
         "chartType": "bar",
@@ -1523,8 +1524,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 720,
+        "x": 940,
+        "y": 780,
         "wires": [
             [
                 "fef9e0f5f9a9afe9"
@@ -1542,8 +1543,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 760,
+        "x": 940,
+        "y": 820,
         "wires": [
             [
                 "631dd122e949d5e0"
@@ -1669,8 +1670,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 860,
-        "y": 720,
+        "x": 1120,
+        "y": 780,
         "wires": []
     },
     {
@@ -1685,8 +1686,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 860,
-        "y": 760,
+        "x": 1120,
+        "y": 820,
         "wires": []
     },
     {
@@ -1811,15 +1812,15 @@
         "name": "",
         "label": "début",
         "group": "880b9ee2c0fd9db3",
-        "order": 6,
+        "order": 7,
         "width": 6,
         "height": 1,
         "passthru": true,
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 530,
-        "y": 820,
+        "x": 510,
+        "y": 880,
         "wires": [
             [
                 "0abf624e3fe23ad1"
@@ -1833,15 +1834,15 @@
         "name": "",
         "label": "fin",
         "group": "880b9ee2c0fd9db3",
-        "order": 10,
+        "order": 11,
         "width": 6,
         "height": 1,
         "passthru": true,
         "topic": "topic",
         "topicType": "msg",
         "className": "",
-        "x": 530,
-        "y": 860,
+        "x": 510,
+        "y": 920,
         "wires": [
             [
                 "bcf5846e19cdc2c1"
@@ -1859,8 +1860,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 820,
+        "x": 940,
+        "y": 880,
         "wires": [
             [
                 "08594cfd36e64c22"
@@ -1878,8 +1879,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 680,
-        "y": 860,
+        "x": 940,
+        "y": 920,
         "wires": [
             [
                 "4ee63a1e40291da8"
@@ -1898,8 +1899,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 860,
-        "y": 820,
+        "x": 1120,
+        "y": 880,
         "wires": []
     },
     {
@@ -1914,8 +1915,8 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 860,
-        "y": 860,
+        "x": 1120,
+        "y": 920,
         "wires": []
     },
     {
@@ -1993,6 +1994,7 @@
         "id": "66a852e5fafe5a95",
         "type": "ui_button",
         "z": "fc7fe9daa568b682",
+        "d": true,
         "name": "",
         "group": "6b316a731f2e67ed",
         "order": 5,
@@ -2019,6 +2021,7 @@
         "id": "91a97dcfde6de741",
         "type": "ui_button",
         "z": "fc7fe9daa568b682",
+        "d": true,
         "name": "",
         "group": "6b316a731f2e67ed",
         "order": 7,
@@ -2065,7 +2068,7 @@
         "type": "function",
         "z": "fc7fe9daa568b682",
         "name": "function 7",
-        "func": "var timestamps = global.get('timestamp_btw');\nvar dure = global.get('dure');\n// Example input arrays\n\n// Ensure both arrays are of the same length\nif (timestamps.length !== dure.length) {\n    node.error(\"Timestamps and values arrays are not of the same length\");\n    return;\n}\n\n\nlet formattedTimestamps = timestamps.map(ts => {\n    let date = new Date(ts * 1000); // converting to milliseconds\n    let month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-based, so add 1\n    let day = String(date.getDate()).padStart(2, '0');\n    let hours = String(date.getHours()).padStart(2, '0');\n    let minutes = String(date.getMinutes()).padStart(2, '0');\n    return `${month}/${day} ${hours}:${minutes}`;\n});\n\n\n// Preparing the data for the chart\nlet chartData = {\n    \"series\": [\"A\"],\n    \"data\": [dure],\n    \"labels\": formattedTimestamps\n};\n\n// Assign the chart data to the payload of the msg object\nmsg.payload = [chartData];\n\n// Return the modified msg object\nreturn msg;\n",
+        "func": "var timestamps = global.get('timestamp_btw');\nvar consomation = global.get('consomation');\n\n\n// Ensure both arrays are of the same length\nif (timestamps.length !== consomation.length) {\n    node.error(\"Timestamps and values arrays are not of the same length\");\n    return;\n}\n\n// Group and sum values by day\nlet aggregatedData = {};\ntimestamps.forEach((ts, index) => {\n    let date = new Date(ts * 1000);\n    let dayKey = date.getFullYear() + '-' + String(date.getMonth() + 1).padStart(2, '0') + '-' + String(date.getDate()).padStart(2, '0');\n\n    if (!aggregatedData[dayKey]) {\n        aggregatedData[dayKey] = 0;\n    }\n    aggregatedData[dayKey] += Number(consomation[index]);\n});\n\n// Separate keys and values for chart data\nlet formattedTimestamps = Object.keys(aggregatedData);\nlet aggregatedValues = Object.values(aggregatedData);\n\n// Format timestamps for display\nlet formattedDisplayTimestamps = formattedTimestamps.map(dayKey => {\n    let parts = dayKey.split('-');\n    return `${parts[1]}/${parts[2]}`; // format as MM/DD\n});\n\n// Preparing the data for the chart\nlet chartData = {\n    \"series\": [\"A\"],\n    \"data\": [aggregatedValues],\n    \"labels\": formattedDisplayTimestamps\n};\n\n// Assign the chart data to the payload of the msg object\nmsg.payload = [chartData];\n\n// Return the modified msg object\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -2124,7 +2127,8 @@
         "wires": [
             [
                 "f464d95542f02db4",
-                "e27d9d68e1a8196e"
+                "e27d9d68e1a8196e",
+                "2646aea14f0cd95b"
             ]
         ]
     },
@@ -2151,6 +2155,7 @@
         "id": "43d93ca70a6f6926",
         "type": "ui_dropdown",
         "z": "fc7fe9daa568b682",
+        "d": true,
         "name": "",
         "label": "DropDown",
         "tooltip": "",
@@ -2198,9 +2203,136 @@
         "topicType": "msg",
         "className": "",
         "x": 190,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bef8035c09582ceb",
+        "type": "ui_dropdown",
+        "z": "fc7fe9daa568b682",
+        "d": true,
+        "name": "",
+        "label": "DropDown",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "064e2cd87ddf434b",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "30min",
+                "value": "30",
+                "type": "str"
+            },
+            {
+                "label": "1hr",
+                "value": "60",
+                "type": "str"
+            },
+            {
+                "label": "2hrs",
+                "value": "120",
+                "type": "str"
+            },
+            {
+                "label": "1jr",
+                "value": "333",
+                "type": "str"
+            },
+            {
+                "label": "1sem",
+                "value": "555555",
+                "type": "str"
+            },
+            {
+                "label": "1mois",
+                "value": "8888888",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 190,
         "y": 800,
         "wires": [
             []
         ]
+    },
+    {
+        "id": "fc1b9ceefd07f275",
+        "type": "ui_text",
+        "z": "fc7fe9daa568b682",
+        "group": "0a97d87e14763514",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "",
+        "label": "Intervalle de temps actuel",
+        "format": "<div style='font-size: 100px;'>{{msg.payload}}</div>",
+        "layout": "col-center",
+        "className": "",
+        "x": 1170,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "2646aea14f0cd95b",
+        "type": "function",
+        "z": "fc7fe9daa568b682",
+        "name": "function 10",
+        "func": "// Retrieve the timestamp values from global context\nlet d = global.get('début')*1000;\nlet f = global.get('fin')*1000;\n\n// Convert timestamps to Date objects\nlet dDate = new Date(d);\nlet fDate = new Date(f);\n\n// Format the dates as needed (e.g., 'YYYY-MM-DD' or 'DD/MM/YYYY')\n// Here's an example to format it as 'DD/MM/YYYY'\nlet dFormatted = dDate.getDate() + '/' + (dDate.getMonth() + 1) + '/' + dDate.getFullYear();\nlet fFormatted = fDate.getDate() + '/' + (fDate.getMonth() + 1) + '/' + fDate.getFullYear();\n\n// Construct the output text\nlet outputText = \"De \" + dFormatted + \" à \" + fFormatted;\n\n// Set the message payload\nmsg.payload = outputText;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 680,
+        "wires": [
+            [
+                "5b71a46c943c47a3",
+                "fc1b9ceefd07f275"
+            ]
+        ]
+    },
+    {
+        "id": "5b031a2b683934a5",
+        "type": "debug",
+        "z": "fc7fe9daa568b682",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "5b71a46c943c47a3",
+        "type": "ui_text",
+        "z": "fc7fe9daa568b682",
+        "group": "880b9ee2c0fd9db3",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "name": "",
+        "label": "Intervalle de temps actuel",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 1170,
+        "y": 700,
+        "wires": []
     }
 ]
